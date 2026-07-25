@@ -36,14 +36,15 @@ This repository currently includes 21 original themes:
 
 ## How to install a theme in pi
 
-Copy one or more theme JSON files from `themes/` into your pi themes directory:
+### Install all themes
+
+Install the full package from npm:
 
 ```bash
-mkdir -p ~/.pi/agent/themes
-cp themes/princess-nam-rom.json ~/.pi/agent/themes/
+pi install npm:awesome-pi-themes
 ```
 
-Then open pi and select the theme from `/settings`, or set it in your pi settings file:
+Then select one of the themes from `/settings`, or set it in your pi settings file:
 
 ```json
 {
@@ -51,7 +52,34 @@ Then open pi and select the theme from `/settings`, or set it in your pi setting
 }
 ```
 
-You can also load a theme directly from the CLI:
+### Install a single theme
+
+If you only want one theme, copy that theme JSON file into your pi themes directory. For example:
+
+```bash
+mkdir -p ~/.pi/agent/themes
+curl -fsSL https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/themes/princess-nam-rom.json \
+  -o ~/.pi/agent/themes/princess-nam-rom.json
+```
+
+Then select `princess-nam-rom` from `/settings`, or set it in your pi settings file:
+
+```json
+{
+  "theme": "princess-nam-rom"
+}
+```
+
+If you have cloned this repository locally, you can also copy one or more files from `themes/`:
+
+```bash
+mkdir -p ~/.pi/agent/themes
+cp themes/princess-nam-rom.json ~/.pi/agent/themes/
+```
+
+### Try a theme without installing it
+
+You can also load a local theme file directly from the CLI:
 
 ```bash
 pi --theme ./themes/princess-nam-rom.json
