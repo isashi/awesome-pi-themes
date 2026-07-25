@@ -1,0 +1,23 @@
+{
+  "name": "awesome-pi-themes",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Original dark themes for pi with a standalone web preview",
+  "homepage": "https://isashi.github.io/awesome-pi-themes/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isashi/awesome-pi-themes.git"
+  },
+  "scripts": {
+    "preview": "node preview-themes-web.js",
+    "build": "node preview-themes-web.js --build",
+    "check": "node --check preview-themes-web.js && node preview-themes-web.js --check-themes"
+  },
+  "keywords": [
+    "pi-theme",
+    "terminal-theme",
+    "github-pages"
+  ],
+  "license": "MIT"
+}
