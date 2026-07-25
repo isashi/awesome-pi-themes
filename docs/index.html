@@ -69,7 +69,7 @@
     <aside>
       <h1>awesome pi themes</h1>
       <input id="search" placeholder="Search themes..." autofocus />
-      <div class="hint"><span id="count"></span> themes. Use ↑/↓ to switch, Enter to copy the theme name.</div>
+      <div class="hint"><span id="count"></span> themes. Use ↑/↓ to switch, Enter to copy the selected theme install command.</div>
       <div id="list" class="theme-list"></div>
     </aside>
     <main id="preview"></main>
@@ -211,17 +211,18 @@ function renderPreview() {
     '<div class="pi-footer"><div class="pi-footer-input"><span class="pi-cursor"></span></div><div class="pi-footer-path">/awesome-pi-themes</div><div class="pi-footer-status"><span>↑2.1k ↓334 $0.021 (sub) 0.9%/272k (auto)</span><span>your-favorite-model • medium</span></div></div>'
   ];
   preview.innerHTML = [
-    '<div class="topbar"><div><h1 class="title">' + t.name + '</h1><div class="sub">' + t.file + '</div></div><button class="copy" id="copy">Copy theme name</button></div>',
+    '<div class="topbar"><div><h1 class="title">' + t.name + '</h1><div class="sub">' + t.file + '</div></div><button class="copy" id="copy">Copy install command</button></div>',
     '<div class="grid">',
     '<section class="card wide"><h2>Palette</h2><div class="palette">' + vars.map(k => '<div class="color"><div class="chip" style="background:' + (t.resolved[k] || t.vars[k]) + '"></div><div class="label">' + k + '<br>' + (t.resolved[k] || t.vars[k]) + '</div></div>').join('') + '</div></section>',
     '<section class="card wide"><h2>Terminal</h2><div class="pi-terminal"><div class="pi-body"><div class="term-content">' + terminalLines.join('') + '</div></div></div></section>',
     '</div>'
   ].join('');
-  document.querySelector('#copy').onclick = async () => navigator.clipboard.writeText(t.name);
+  document.querySelector('#copy').onclick = async () => navigator.clipboard.writeText(installCommand(t));
 }
+function installCommand(t) { return 'mkdir -p ~/.pi/agent/themes && curl -fsSL https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/themes/' + t.file + ' -o ~/.pi/agent/themes/' + t.file; }
 function select(i) { selected = Math.max(0, Math.min(i, filtered.length - 1)); renderList(); renderPreview(); }
 search.oninput = () => { const q = search.value.toLowerCase(); filtered = themes.filter(t => t.name.toLowerCase().includes(q)); selected = 0; renderList(); renderPreview(); };
-document.addEventListener('keydown', e => { if (e.key === 'ArrowDown') { e.preventDefault(); select(selected + 1); } if (e.key === 'ArrowUp') { e.preventDefault(); select(selected - 1); } if (e.key === 'Enter') { navigator.clipboard.writeText((filtered[selected] || themes[0]).name); } });
+document.addEventListener('keydown', e => { if (e.key === 'ArrowDown') { e.preventDefault(); select(selected + 1); } if (e.key === 'ArrowUp') { e.preventDefault(); select(selected - 1); } if (e.key === 'Enter') { navigator.clipboard.writeText(installCommand(filtered[selected] || themes[0])); } });
 renderList(); renderPreview();
 </script>
 </body>
