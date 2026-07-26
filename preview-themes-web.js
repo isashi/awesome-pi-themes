@@ -152,6 +152,8 @@ const html = String.raw`<!doctype html>
 const themes = __THEMES__;
 let selected = 0;
 let filtered = themes.slice();
+const themeFromHash = () => decodeURIComponent(window.location.hash.replace(/^#/, ""));
+const indexByThemeName = (name) => themes.findIndex((t) => t.name === name);
 const list = document.querySelector('#list');
 const search = document.querySelector('#search');
 const preview = document.querySelector('#preview');
@@ -173,7 +175,7 @@ function renderList() {
   list.innerHTML = filtered.map((t, i) => '<button class="theme-btn '+(i===selected?'active':'')+'" data-i="'+i+'" style="--accent:'+t.resolved.accent+'"><b>'+t.name+'</b><div class="swatches">'+
     ['bg','fg','accent','secondary','success','warning','error'].map(k => '<span class="swatch" style="background:'+ (t.resolved[k] || t.vars[k]) +'"></span>').join('') +
     '</div></button>').join('');
-  list.querySelectorAll('button').forEach(b => b.onclick = () => select(Number(b.dataset.i)));
+  list.querySelectorAll('button').forEach(b => b.onclick = () => select(Number(b.dataset.i), true));
   list.querySelector('.active')?.scrollIntoView({ block: 'nearest' });
 }
 function renderPreview() {
@@ -294,9 +296,28 @@ function renderPreview() {
   document.querySelector('#copy').onclick = async () => navigator.clipboard.writeText(installCommand(t));
 }
 function installCommand(t) { return 'mkdir -p ~/.pi/agent/themes && curl -fsSL https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/themes/' + t.file + ' -o ~/.pi/agent/themes/' + t.file; }
-function select(i) { selected = Math.max(0, Math.min(i, filtered.length - 1)); renderList(); renderPreview(); }
+function select(i, updateHash = false) {
+  selected = Math.max(0, Math.min(i, filtered.length - 1));
+  renderList();
+  renderPreview();
+  if (updateHash) {
+    const t = filtered[selected];
+    if (t) history.replaceState(null, "", "#" + encodeURIComponent(t.name));
+  }
+}
+function selectHashTheme() {
+  const hashTheme = themeFromHash();
+  const index = indexByThemeName(hashTheme);
+  if (index !== -1) {
+    filtered = themes.slice();
+    search.value = "";
+    selected = index;
+  }
+}
 search.oninput = () => { const q = search.value.toLowerCase(); filtered = themes.filter(t => t.name.toLowerCase().includes(q)); selected = 0; renderList(); renderPreview(); };
-document.addEventListener('keydown', e => { if (e.key === 'ArrowDown') { e.preventDefault(); select(selected + 1); } if (e.key === 'ArrowUp') { e.preventDefault(); select(selected - 1); } if (e.key === 'Enter') { navigator.clipboard.writeText(installCommand(filtered[selected] || themes[0])); } });
+document.addEventListener('keydown', e => { if (e.key === 'ArrowDown') { e.preventDefault(); select(selected + 1, true); } if (e.key === 'ArrowUp') { e.preventDefault(); select(selected - 1, true); } if (e.key === 'Enter') { navigator.clipboard.writeText(installCommand(filtered[selected] || themes[0])); } });
+window.addEventListener('hashchange', () => { selectHashTheme(); renderList(); renderPreview(); });
+selectHashTheme();
 renderList(); renderPreview();
 </script>
 </body>

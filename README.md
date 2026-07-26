@@ -12,27 +12,48 @@ Browse all themes here:
 
 This repository currently includes 21 original themes:
 
-- `alien-candy`
-- `arctic-aurora`
-- `breezy-ocean`
-- `cosmic-lagoon`
-- `crimson-noir`
-- `cyber-mint`
-- `ember-sunset`
-- `enchanted-forest`
-- `glitch-carnival`
-- `golden-dusk`
-- `laser-swamp`
-- `lavender-mist`
-- `midnight-orchid`
-- `noodle-nebula`
-- `paper-moon`
-- `plasma-pomegranate`
-- `princess-nam-rom`
-- `quantum-pickle`
-- `radioactive-lullaby`
-- `static-dragonfruit`
-- `volcanic-bubblegum`
+- [`alien-candy`](docs/screenshots/alien-candy.png)
+  <br><a href="docs/screenshots/alien-candy.png"><img src="docs/screenshots/alien-candy.png" alt="Screenshot theme alien-candy" width="480"></a>
+- [`arctic-aurora`](docs/screenshots/arctic-aurora.png)
+  <br><a href="docs/screenshots/arctic-aurora.png"><img src="docs/screenshots/arctic-aurora.png" alt="Screenshot theme arctic-aurora" width="480"></a>
+- [`breezy-ocean`](docs/screenshots/breezy-ocean.png)
+  <br><a href="docs/screenshots/breezy-ocean.png"><img src="docs/screenshots/breezy-ocean.png" alt="Screenshot theme breezy-ocean" width="480"></a>
+- [`cosmic-lagoon`](docs/screenshots/cosmic-lagoon.png)
+  <br><a href="docs/screenshots/cosmic-lagoon.png"><img src="docs/screenshots/cosmic-lagoon.png" alt="Screenshot theme cosmic-lagoon" width="480"></a>
+- [`crimson-noir`](docs/screenshots/crimson-noir.png)
+  <br><a href="docs/screenshots/crimson-noir.png"><img src="docs/screenshots/crimson-noir.png" alt="Screenshot theme crimson-noir" width="480"></a>
+- [`cyber-mint`](docs/screenshots/cyber-mint.png)
+  <br><a href="docs/screenshots/cyber-mint.png"><img src="docs/screenshots/cyber-mint.png" alt="Screenshot theme cyber-mint" width="480"></a>
+- [`ember-sunset`](docs/screenshots/ember-sunset.png)
+  <br><a href="docs/screenshots/ember-sunset.png"><img src="docs/screenshots/ember-sunset.png" alt="Screenshot theme ember-sunset" width="480"></a>
+- [`enchanted-forest`](docs/screenshots/enchanted-forest.png)
+  <br><a href="docs/screenshots/enchanted-forest.png"><img src="docs/screenshots/enchanted-forest.png" alt="Screenshot theme enchanted-forest" width="480"></a>
+- [`glitch-carnival`](docs/screenshots/glitch-carnival.png)
+  <br><a href="docs/screenshots/glitch-carnival.png"><img src="docs/screenshots/glitch-carnival.png" alt="Screenshot theme glitch-carnival" width="480"></a>
+- [`golden-dusk`](docs/screenshots/golden-dusk.png)
+  <br><a href="docs/screenshots/golden-dusk.png"><img src="docs/screenshots/golden-dusk.png" alt="Screenshot theme golden-dusk" width="480"></a>
+- [`laser-swamp`](docs/screenshots/laser-swamp.png)
+  <br><a href="docs/screenshots/laser-swamp.png"><img src="docs/screenshots/laser-swamp.png" alt="Screenshot theme laser-swamp" width="480"></a>
+- [`lavender-mist`](docs/screenshots/lavender-mist.png)
+  <br><a href="docs/screenshots/lavender-mist.png"><img src="docs/screenshots/lavender-mist.png" alt="Screenshot theme lavender-mist" width="480"></a>
+- [`midnight-orchid`](docs/screenshots/midnight-orchid.png)
+  <br><a href="docs/screenshots/midnight-orchid.png"><img src="docs/screenshots/midnight-orchid.png" alt="Screenshot theme midnight-orchid" width="480"></a>
+- [`noodle-nebula`](docs/screenshots/noodle-nebula.png)
+  <br><a href="docs/screenshots/noodle-nebula.png"><img src="docs/screenshots/noodle-nebula.png" alt="Screenshot theme noodle-nebula" width="480"></a>
+- [`paper-moon`](docs/screenshots/paper-moon.png)
+  <br><a href="docs/screenshots/paper-moon.png"><img src="docs/screenshots/paper-moon.png" alt="Screenshot theme paper-moon" width="480"></a>
+- [`plasma-pomegranate`](docs/screenshots/plasma-pomegranate.png)
+  <br><a href="docs/screenshots/plasma-pomegranate.png"><img src="docs/screenshots/plasma-pomegranate.png" alt="Screenshot theme plasma-pomegranate" width="480"></a>
+- [`princess-nam-rom`](docs/screenshots/princess-nam-rom.png)
+  <br><a href="docs/screenshots/princess-nam-rom.png"><img src="docs/screenshots/princess-nam-rom.png" alt="Screenshot theme princess-nam-rom" width="480"></a>
+- [`quantum-pickle`](docs/screenshots/quantum-pickle.png)
+  <br><a href="docs/screenshots/quantum-pickle.png"><img src="docs/screenshots/quantum-pickle.png" alt="Screenshot theme quantum-pickle" width="480"></a>
+- [`radioactive-lullaby`](docs/screenshots/radioactive-lullaby.png)
+  <br><a href="docs/screenshots/radioactive-lullaby.png"><img src="docs/screenshots/radioactive-lullaby.png" alt="Screenshot theme radioactive-lullaby" width="480"></a>
+- [`static-dragonfruit`](docs/screenshots/static-dragonfruit.png)
+  <br><a href="docs/screenshots/static-dragonfruit.png"><img src="docs/screenshots/static-dragonfruit.png" alt="Screenshot theme static-dragonfruit" width="480"></a>
+- [`volcanic-bubblegum`](docs/screenshots/volcanic-bubblegum.png)
+  <br><a href="docs/screenshots/volcanic-bubblegum.png"><img src="docs/screenshots/volcanic-bubblegum.png" alt="Screenshot theme volcanic-bubblegum" width="480"></a>
 
 ## How to install a theme in pi
 
