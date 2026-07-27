@@ -38,6 +38,6 @@
     "themes": [
       "./themes"
     ],
-    "image": "https://isashi.github.io/awesome-pi-themes/screenshots/starry-night.png"
+    "image": "https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/starry-night.png"
   }
 }

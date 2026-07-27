@@ -12,50 +12,50 @@ Browse all themes here:
 
 This repository currently includes 22 original themes:
 
-- [`alien-candy`](https://isashi.github.io/awesome-pi-themes/screenshots/alien-candy.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/alien-candy.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/alien-candy.png" alt="Screenshot theme alien-candy" width="480"></a>
-- [`arctic-aurora`](https://isashi.github.io/awesome-pi-themes/screenshots/arctic-aurora.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/arctic-aurora.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/arctic-aurora.png" alt="Screenshot theme arctic-aurora" width="480"></a>
-- [`breezy-ocean`](https://isashi.github.io/awesome-pi-themes/screenshots/breezy-ocean.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/breezy-ocean.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/breezy-ocean.png" alt="Screenshot theme breezy-ocean" width="480"></a>
-- [`cosmic-lagoon`](https://isashi.github.io/awesome-pi-themes/screenshots/cosmic-lagoon.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/cosmic-lagoon.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/cosmic-lagoon.png" alt="Screenshot theme cosmic-lagoon" width="480"></a>
-- [`crimson-noir`](https://isashi.github.io/awesome-pi-themes/screenshots/crimson-noir.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/crimson-noir.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/crimson-noir.png" alt="Screenshot theme crimson-noir" width="480"></a>
-- [`cyber-mint`](https://isashi.github.io/awesome-pi-themes/screenshots/cyber-mint.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/cyber-mint.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/cyber-mint.png" alt="Screenshot theme cyber-mint" width="480"></a>
-- [`ember-sunset`](https://isashi.github.io/awesome-pi-themes/screenshots/ember-sunset.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/ember-sunset.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/ember-sunset.png" alt="Screenshot theme ember-sunset" width="480"></a>
-- [`enchanted-forest`](https://isashi.github.io/awesome-pi-themes/screenshots/enchanted-forest.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/enchanted-forest.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/enchanted-forest.png" alt="Screenshot theme enchanted-forest" width="480"></a>
-- [`glitch-carnival`](https://isashi.github.io/awesome-pi-themes/screenshots/glitch-carnival.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/glitch-carnival.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/glitch-carnival.png" alt="Screenshot theme glitch-carnival" width="480"></a>
-- [`golden-dusk`](https://isashi.github.io/awesome-pi-themes/screenshots/golden-dusk.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/golden-dusk.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/golden-dusk.png" alt="Screenshot theme golden-dusk" width="480"></a>
-- [`laser-swamp`](https://isashi.github.io/awesome-pi-themes/screenshots/laser-swamp.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/laser-swamp.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/laser-swamp.png" alt="Screenshot theme laser-swamp" width="480"></a>
-- [`lavender-mist`](https://isashi.github.io/awesome-pi-themes/screenshots/lavender-mist.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/lavender-mist.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/lavender-mist.png" alt="Screenshot theme lavender-mist" width="480"></a>
-- [`midnight-orchid`](https://isashi.github.io/awesome-pi-themes/screenshots/midnight-orchid.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/midnight-orchid.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/midnight-orchid.png" alt="Screenshot theme midnight-orchid" width="480"></a>
-- [`noodle-nebula`](https://isashi.github.io/awesome-pi-themes/screenshots/noodle-nebula.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/noodle-nebula.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/noodle-nebula.png" alt="Screenshot theme noodle-nebula" width="480"></a>
-- [`paper-moon`](https://isashi.github.io/awesome-pi-themes/screenshots/paper-moon.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/paper-moon.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/paper-moon.png" alt="Screenshot theme paper-moon" width="480"></a>
-- [`plasma-pomegranate`](https://isashi.github.io/awesome-pi-themes/screenshots/plasma-pomegranate.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/plasma-pomegranate.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/plasma-pomegranate.png" alt="Screenshot theme plasma-pomegranate" width="480"></a>
-- [`princess-nam-rom`](https://isashi.github.io/awesome-pi-themes/screenshots/princess-nam-rom.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/princess-nam-rom.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/princess-nam-rom.png" alt="Screenshot theme princess-nam-rom" width="480"></a>
-- [`quantum-pickle`](https://isashi.github.io/awesome-pi-themes/screenshots/quantum-pickle.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/quantum-pickle.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/quantum-pickle.png" alt="Screenshot theme quantum-pickle" width="480"></a>
-- [`radioactive-lullaby`](https://isashi.github.io/awesome-pi-themes/screenshots/radioactive-lullaby.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/radioactive-lullaby.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/radioactive-lullaby.png" alt="Screenshot theme radioactive-lullaby" width="480"></a>
-- [`starry-night`](https://isashi.github.io/awesome-pi-themes/screenshots/starry-night.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/starry-night.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/starry-night.png" alt="Screenshot theme starry-night" width="480"></a>
-- [`static-dragonfruit`](https://isashi.github.io/awesome-pi-themes/screenshots/static-dragonfruit.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/static-dragonfruit.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/static-dragonfruit.png" alt="Screenshot theme static-dragonfruit" width="480"></a>
-- [`volcanic-bubblegum`](https://isashi.github.io/awesome-pi-themes/screenshots/volcanic-bubblegum.png)
-  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/volcanic-bubblegum.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/volcanic-bubblegum.png" alt="Screenshot theme volcanic-bubblegum" width="480"></a>
+- [`alien-candy`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/alien-candy.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/alien-candy.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/alien-candy.png" alt="Screenshot theme alien-candy" width="480"></a>
+- [`arctic-aurora`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/arctic-aurora.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/arctic-aurora.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/arctic-aurora.png" alt="Screenshot theme arctic-aurora" width="480"></a>
+- [`breezy-ocean`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/breezy-ocean.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/breezy-ocean.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/breezy-ocean.png" alt="Screenshot theme breezy-ocean" width="480"></a>
+- [`cosmic-lagoon`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/cosmic-lagoon.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/cosmic-lagoon.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/cosmic-lagoon.png" alt="Screenshot theme cosmic-lagoon" width="480"></a>
+- [`crimson-noir`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/crimson-noir.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/crimson-noir.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/crimson-noir.png" alt="Screenshot theme crimson-noir" width="480"></a>
+- [`cyber-mint`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/cyber-mint.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/cyber-mint.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/cyber-mint.png" alt="Screenshot theme cyber-mint" width="480"></a>
+- [`ember-sunset`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/ember-sunset.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/ember-sunset.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/ember-sunset.png" alt="Screenshot theme ember-sunset" width="480"></a>
+- [`enchanted-forest`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/enchanted-forest.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/enchanted-forest.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/enchanted-forest.png" alt="Screenshot theme enchanted-forest" width="480"></a>
+- [`glitch-carnival`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/glitch-carnival.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/glitch-carnival.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/glitch-carnival.png" alt="Screenshot theme glitch-carnival" width="480"></a>
+- [`golden-dusk`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/golden-dusk.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/golden-dusk.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/golden-dusk.png" alt="Screenshot theme golden-dusk" width="480"></a>
+- [`laser-swamp`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/laser-swamp.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/laser-swamp.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/laser-swamp.png" alt="Screenshot theme laser-swamp" width="480"></a>
+- [`lavender-mist`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/lavender-mist.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/lavender-mist.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/lavender-mist.png" alt="Screenshot theme lavender-mist" width="480"></a>
+- [`midnight-orchid`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/midnight-orchid.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/midnight-orchid.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/midnight-orchid.png" alt="Screenshot theme midnight-orchid" width="480"></a>
+- [`noodle-nebula`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/noodle-nebula.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/noodle-nebula.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/noodle-nebula.png" alt="Screenshot theme noodle-nebula" width="480"></a>
+- [`paper-moon`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/paper-moon.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/paper-moon.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/paper-moon.png" alt="Screenshot theme paper-moon" width="480"></a>
+- [`plasma-pomegranate`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/plasma-pomegranate.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/plasma-pomegranate.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/plasma-pomegranate.png" alt="Screenshot theme plasma-pomegranate" width="480"></a>
+- [`princess-nam-rom`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/princess-nam-rom.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/princess-nam-rom.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/princess-nam-rom.png" alt="Screenshot theme princess-nam-rom" width="480"></a>
+- [`quantum-pickle`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/quantum-pickle.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/quantum-pickle.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/quantum-pickle.png" alt="Screenshot theme quantum-pickle" width="480"></a>
+- [`radioactive-lullaby`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/radioactive-lullaby.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/radioactive-lullaby.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/radioactive-lullaby.png" alt="Screenshot theme radioactive-lullaby" width="480"></a>
+- [`starry-night`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/starry-night.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/starry-night.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/starry-night.png" alt="Screenshot theme starry-night" width="480"></a>
+- [`static-dragonfruit`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/static-dragonfruit.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/static-dragonfruit.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/static-dragonfruit.png" alt="Screenshot theme static-dragonfruit" width="480"></a>
+- [`volcanic-bubblegum`](https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/volcanic-bubblegum.png)
+  <br><a href="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/volcanic-bubblegum.png"><img src="https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/volcanic-bubblegum.png" alt="Screenshot theme volcanic-bubblegum" width="480"></a>
 
 ## How to install a theme in pi
 
