@@ -17,6 +17,11 @@
   "keywords": [
     "pi-package",
     "pi-theme",
+    "pi-themes",
+    "pi",
+    "pi-coding-agent",
+    "theme",
+    "themes",
     "terminal-theme",
     "github-pages"
   ],
@@ -26,14 +31,13 @@
   },
   "files": [
     "themes",
-    "preview-themes-web.js",
-    "docs",
     "README.md",
     "LICENSE"
   ],
   "pi": {
     "themes": [
       "./themes"
-    ]
+    ],
+    "image": "https://isashi.github.io/awesome-pi-themes/screenshots/alien-candy.png"
   }
 }
