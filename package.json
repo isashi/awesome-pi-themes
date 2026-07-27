@@ -1,6 +1,6 @@
 {
   "name": "awesome-pi-themes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "type": "module",
   "description": "Original dark themes for pi with a standalone web preview",
