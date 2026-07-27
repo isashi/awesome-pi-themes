@@ -10,7 +10,7 @@ Browse all themes here:
 
 ## Themes
 
-This repository currently includes 21 original themes:
+This repository currently includes 22 original themes:
 
 - [`alien-candy`](https://isashi.github.io/awesome-pi-themes/screenshots/alien-candy.png)
   <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/alien-candy.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/alien-candy.png" alt="Screenshot theme alien-candy" width="480"></a>
@@ -50,6 +50,8 @@ This repository currently includes 21 original themes:
   <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/quantum-pickle.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/quantum-pickle.png" alt="Screenshot theme quantum-pickle" width="480"></a>
 - [`radioactive-lullaby`](https://isashi.github.io/awesome-pi-themes/screenshots/radioactive-lullaby.png)
   <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/radioactive-lullaby.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/radioactive-lullaby.png" alt="Screenshot theme radioactive-lullaby" width="480"></a>
+- [`starry-night`](https://isashi.github.io/awesome-pi-themes/screenshots/starry-night.png)
+  <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/starry-night.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/starry-night.png" alt="Screenshot theme starry-night" width="480"></a>
 - [`static-dragonfruit`](https://isashi.github.io/awesome-pi-themes/screenshots/static-dragonfruit.png)
   <br><a href="https://isashi.github.io/awesome-pi-themes/screenshots/static-dragonfruit.png"><img src="https://isashi.github.io/awesome-pi-themes/screenshots/static-dragonfruit.png" alt="Screenshot theme static-dragonfruit" width="480"></a>
 - [`volcanic-bubblegum`](https://isashi.github.io/awesome-pi-themes/screenshots/volcanic-bubblegum.png)
