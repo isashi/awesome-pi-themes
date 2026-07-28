@@ -1,6 +1,6 @@
 # Awesome Pi Themes
 
-A curated collection of **22 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **25 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -58,12 +58,14 @@ Click a name to open the live preview for that theme.
 | [cosmic-lagoon](https://isashi.github.io/awesome-pi-themes/#cosmic-lagoon) | [<img src="docs/screenshots/cosmic-lagoon.jpg" alt="Screenshot of cosmic-lagoon" width="360">](docs/screenshots/cosmic-lagoon.jpg) |
 | [crimson-noir](https://isashi.github.io/awesome-pi-themes/#crimson-noir) | [<img src="docs/screenshots/crimson-noir.jpg" alt="Screenshot of crimson-noir" width="360">](docs/screenshots/crimson-noir.jpg) |
 | [cyber-mint](https://isashi.github.io/awesome-pi-themes/#cyber-mint) | [<img src="docs/screenshots/cyber-mint.jpg" alt="Screenshot of cyber-mint" width="360">](docs/screenshots/cyber-mint.jpg) |
+| [dragon-lulu](https://isashi.github.io/awesome-pi-themes/#dragon-lulu) | [<img src="docs/screenshots/dragon-lulu.jpg" alt="Screenshot of dragon-lulu" width="360">](docs/screenshots/dragon-lulu.jpg) |
 | [ember-sunset](https://isashi.github.io/awesome-pi-themes/#ember-sunset) | [<img src="docs/screenshots/ember-sunset.jpg" alt="Screenshot of ember-sunset" width="360">](docs/screenshots/ember-sunset.jpg) |
 | [enchanted-forest](https://isashi.github.io/awesome-pi-themes/#enchanted-forest) | [<img src="docs/screenshots/enchanted-forest.jpg" alt="Screenshot of enchanted-forest" width="360">](docs/screenshots/enchanted-forest.jpg) |
 | [glitch-carnival](https://isashi.github.io/awesome-pi-themes/#glitch-carnival) | [<img src="docs/screenshots/glitch-carnival.jpg" alt="Screenshot of glitch-carnival" width="360">](docs/screenshots/glitch-carnival.jpg) |
 | [golden-dusk](https://isashi.github.io/awesome-pi-themes/#golden-dusk) | [<img src="docs/screenshots/golden-dusk.jpg" alt="Screenshot of golden-dusk" width="360">](docs/screenshots/golden-dusk.jpg) |
 | [laser-swamp](https://isashi.github.io/awesome-pi-themes/#laser-swamp) | [<img src="docs/screenshots/laser-swamp.jpg" alt="Screenshot of laser-swamp" width="360">](docs/screenshots/laser-swamp.jpg) |
 | [lavender-mist](https://isashi.github.io/awesome-pi-themes/#lavender-mist) | [<img src="docs/screenshots/lavender-mist.jpg" alt="Screenshot of lavender-mist" width="360">](docs/screenshots/lavender-mist.jpg) |
+| [meomeo-mang](https://isashi.github.io/awesome-pi-themes/#meomeo-mang) | [<img src="docs/screenshots/meomeo-mang.jpg" alt="Screenshot of meomeo-mang" width="360">](docs/screenshots/meomeo-mang.jpg) |
 | [midnight-orchid](https://isashi.github.io/awesome-pi-themes/#midnight-orchid) | [<img src="docs/screenshots/midnight-orchid.jpg" alt="Screenshot of midnight-orchid" width="360">](docs/screenshots/midnight-orchid.jpg) |
 | [noodle-nebula](https://isashi.github.io/awesome-pi-themes/#noodle-nebula) | [<img src="docs/screenshots/noodle-nebula.jpg" alt="Screenshot of noodle-nebula" width="360">](docs/screenshots/noodle-nebula.jpg) |
 | [paper-moon](https://isashi.github.io/awesome-pi-themes/#paper-moon) | [<img src="docs/screenshots/paper-moon.jpg" alt="Screenshot of paper-moon" width="360">](docs/screenshots/paper-moon.jpg) |
@@ -73,6 +75,7 @@ Click a name to open the live preview for that theme.
 | [radioactive-lullaby](https://isashi.github.io/awesome-pi-themes/#radioactive-lullaby) | [<img src="docs/screenshots/radioactive-lullaby.jpg" alt="Screenshot of radioactive-lullaby" width="360">](docs/screenshots/radioactive-lullaby.jpg) |
 | [starry-night](https://isashi.github.io/awesome-pi-themes/#starry-night) | [<img src="docs/screenshots/starry-night.jpg" alt="Screenshot of starry-night" width="360">](docs/screenshots/starry-night.jpg) |
 | [static-dragonfruit](https://isashi.github.io/awesome-pi-themes/#static-dragonfruit) | [<img src="docs/screenshots/static-dragonfruit.jpg" alt="Screenshot of static-dragonfruit" width="360">](docs/screenshots/static-dragonfruit.jpg) |
+| [tuscan-sun](https://isashi.github.io/awesome-pi-themes/#tuscan-sun) | [<img src="docs/screenshots/tuscan-sun.jpg" alt="Screenshot of tuscan-sun" width="360">](docs/screenshots/tuscan-sun.jpg) |
 | [volcanic-bubblegum](https://isashi.github.io/awesome-pi-themes/#volcanic-bubblegum) | [<img src="docs/screenshots/volcanic-bubblegum.jpg" alt="Screenshot of volcanic-bubblegum" width="360">](docs/screenshots/volcanic-bubblegum.jpg) |
 
 ## Feedback wanted
