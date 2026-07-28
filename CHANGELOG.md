@@ -2,8 +2,9 @@
 
 All notable changes to this project are documented here.
 
-## 0.1.6 - 2026-07-28
+## 1.0.0 - 2026-07-28
 
+- Marked the package as stable with the first `1.0.0` release.
 - Added a Node.js test suite for theme structure, required Pi color tokens, schema URLs, and color references.
 - Added an npm `test` script and included tests in the package tarball.
 - Improved npm metadata with a more specific description, expanded keywords, author, Node.js engine, and changelog packaging.
