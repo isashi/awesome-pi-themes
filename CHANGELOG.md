@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.0.1 - 2026-07-28
+
+- Added `rainbow-prism`, a neutral spectrum-inspired dark theme.
+- Updated the live preview build and README gallery for 26 themes.
+
 ## 1.0.0 - 2026-07-28
 
 - Marked the package as stable with the first `1.0.0` release.
