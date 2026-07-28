@@ -1,9 +1,9 @@
 {
   "name": "awesome-pi-themes",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": false,
   "type": "module",
-  "description": "Original dark themes for pi with a standalone web preview",
+  "description": "A curated collection of 25 original dark themes for Pi Coding Agent with a live web preview",
   "homepage": "https://isashi.github.io/awesome-pi-themes/",
   "repository": {
     "type": "git",
@@ -12,17 +12,24 @@
   "scripts": {
     "preview": "node preview-themes-web.js",
     "build": "node preview-themes-web.js --build",
-    "check": "node --check preview-themes-web.js && node preview-themes-web.js --check-themes"
+    "check": "node --check preview-themes-web.js && node preview-themes-web.js --check-themes && npm test",
+    "test": "node --test"
   },
   "keywords": [
     "pi-package",
-    "pi-theme",
-    "pi-themes",
     "pi",
     "pi-coding-agent",
-    "theme",
-    "themes",
+    "pi-coding-agent-theme",
+    "pi-theme",
+    "pi-themes",
     "terminal-theme",
+    "terminal-themes",
+    "terminal-colors",
+    "tui-theme",
+    "cli-theme",
+    "dark-theme",
+    "dark-themes",
+    "awesome-pi",
     "github-pages"
   ],
   "license": "MIT",
@@ -31,7 +38,9 @@
   },
   "files": [
     "themes",
+    "test",
     "README.md",
+    "CHANGELOG.md",
     "LICENSE"
   ],
   "pi": {
@@ -39,5 +48,9 @@
       "./themes"
     ],
     "image": "https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/starry-night.jpg"
+  },
+  "author": "isashi",
+  "engines": {
+    "node": ">=18"
   }
 }
