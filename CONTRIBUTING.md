@@ -22,7 +22,37 @@ When proposing theme changes:
 - include or update screenshots/previews when visual output changes;
 - document user-facing changes in `CHANGELOG.md`.
 
-## Release notes
+## Release process
+
+This project publishes to npm through GitHub Actions trusted publishing. Do not publish from a local shell unless explicitly required as an emergency fallback.
+
+Normal release flow:
+
+1. Ensure the npm package has this trusted publisher configured:
+   - owner/user: `isashi`
+   - repository: `awesome-pi-themes`
+   - workflow: `publish.yml`
+2. Run local validation:
+
+   ```bash
+   npm ci
+   npm run check
+   npm pack --dry-run
+   ```
+
+3. Bump the version and update `CHANGELOG.md`.
+4. Commit the release changes with `chore: release x.y.z`.
+5. Create and push the matching tag:
+
+   ```bash
+   git tag vx.y.z
+   git push origin main
+   git push origin vx.y.z
+   ```
+
+6. If the tag was pushed before the workflow existed or the automatic run needs to be retried, use GitHub Actions → `Publish to npm` → `Run workflow` on `main`.
+
+The publish workflow runs `npm publish --provenance`, so it should not require an `NPM_TOKEN`.
 
 This project follows semantic versioning:
 
