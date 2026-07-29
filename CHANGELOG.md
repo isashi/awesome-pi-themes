@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented here.
 
+## 1.0.2 - 2026-07-29
+
+- Added repository health documentation for contributing and security reporting.
+- Added a GitHub Actions CI workflow for package validation.
+- Added a package lockfile for reproducible installs.
+- Added local npm artifact ignores.
+
 ## 1.0.1 - 2026-07-28
 
 - Added `rainbow-prism`, a neutral spectrum-inspired dark theme.
