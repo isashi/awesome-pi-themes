@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.0 - 2026-07-29
+
+- Added `velvet-meteor`, a plush violet dark theme with rose, aqua, mint, and meteor-gold accents.
+- Updated the live preview build and README gallery for 27 themes.
+
 ## 1.0.2 - 2026-07-29
 
 - Added repository health documentation for contributing and security reporting.

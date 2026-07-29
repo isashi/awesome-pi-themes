@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **26 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **27 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -81,6 +81,7 @@ Click a name to open the live preview for that theme.
 | [starry-night](https://isashi.github.io/awesome-pi-themes/#starry-night) | [<img src="docs/screenshots/starry-night.jpg" alt="Screenshot of starry-night" width="360">](docs/screenshots/starry-night.jpg) |
 | [static-dragonfruit](https://isashi.github.io/awesome-pi-themes/#static-dragonfruit) | [<img src="docs/screenshots/static-dragonfruit.jpg" alt="Screenshot of static-dragonfruit" width="360">](docs/screenshots/static-dragonfruit.jpg) |
 | [tuscan-sun](https://isashi.github.io/awesome-pi-themes/#tuscan-sun) | [<img src="docs/screenshots/tuscan-sun.jpg" alt="Screenshot of tuscan-sun" width="360">](docs/screenshots/tuscan-sun.jpg) |
+| [velvet-meteor](https://isashi.github.io/awesome-pi-themes/#velvet-meteor) | [<img src="docs/screenshots/velvet-meteor.jpg" alt="Screenshot of velvet-meteor" width="360">](docs/screenshots/velvet-meteor.jpg) |
 | [volcanic-bubblegum](https://isashi.github.io/awesome-pi-themes/#volcanic-bubblegum) | [<img src="docs/screenshots/volcanic-bubblegum.jpg" alt="Screenshot of volcanic-bubblegum" width="360">](docs/screenshots/volcanic-bubblegum.jpg) |
 
 ## Feedback wanted
