@@ -52,7 +52,7 @@ Normal release flow:
 
 6. If the tag was pushed before the workflow existed or the automatic run needs to be retried, use GitHub Actions → `Publish to npm` → `Run workflow` on `main`.
 
-The publish workflow runs `npm publish --provenance`, so it should not require an `NPM_TOKEN`.
+The publish workflow runs on Node.js 24 and executes `npm publish --provenance`, so it should not require an `NPM_TOKEN`.
 
 This project follows semantic versioning:
 
