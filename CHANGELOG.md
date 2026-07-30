@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.1 - 2026-07-30
+
+- Added `neon-sakura`, a cherry-blossom neon dark theme with sakura pink, sky blue, mint, and yuzu accents.
+- Updated the live preview build and README gallery for 28 themes.
+
 ## 1.1.0 - 2026-07-29
 
 - Added `velvet-meteor`, a plush violet dark theme with rose, aqua, mint, and meteor-gold accents.
