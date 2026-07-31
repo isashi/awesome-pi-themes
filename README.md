@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **28 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **29 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -58,6 +58,7 @@ Click a name to open the live preview for that theme.
 | --- | --- |
 | [alien-candy](https://isashi.github.io/awesome-pi-themes/#alien-candy) | [<img src="docs/screenshots/alien-candy.jpg" alt="Screenshot of alien-candy" width="360">](docs/screenshots/alien-candy.jpg) |
 | [arctic-aurora](https://isashi.github.io/awesome-pi-themes/#arctic-aurora) | [<img src="docs/screenshots/arctic-aurora.jpg" alt="Screenshot of arctic-aurora" width="360">](docs/screenshots/arctic-aurora.jpg) |
+| [aurora-circuit](https://isashi.github.io/awesome-pi-themes/#aurora-circuit) | [<img src="docs/screenshots/aurora-circuit.jpg" alt="Screenshot of aurora-circuit" width="360">](docs/screenshots/aurora-circuit.jpg) |
 | [breezy-ocean](https://isashi.github.io/awesome-pi-themes/#breezy-ocean) | [<img src="docs/screenshots/breezy-ocean.jpg" alt="Screenshot of breezy-ocean" width="360">](docs/screenshots/breezy-ocean.jpg) |
 | [cosmic-lagoon](https://isashi.github.io/awesome-pi-themes/#cosmic-lagoon) | [<img src="docs/screenshots/cosmic-lagoon.jpg" alt="Screenshot of cosmic-lagoon" width="360">](docs/screenshots/cosmic-lagoon.jpg) |
 | [crimson-noir](https://isashi.github.io/awesome-pi-themes/#crimson-noir) | [<img src="docs/screenshots/crimson-noir.jpg" alt="Screenshot of crimson-noir" width="360">](docs/screenshots/crimson-noir.jpg) |

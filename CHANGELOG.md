@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.2 - 2026-07-31
+
+- Added `aurora-circuit`, a polar neon dark theme with cyan, lime, mint, violet, and amber circuit accents.
+- Updated the live preview build and README gallery for 29 themes.
+
 ## 1.1.1 - 2026-07-30
 
 - Added `neon-sakura`, a cherry-blossom neon dark theme with sakura pink, sky blue, mint, and yuzu accents.
