@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.3 - 2026-08-04
+
+- Added `opal-matrix`, a dark opalescent matrix theme with mint, cyan, violet, rose, and pearl highlights.
+- Updated the live preview build and README gallery for 30 themes.
+
 ## 1.1.2 - 2026-07-31
 
 - Added `aurora-circuit`, a polar neon dark theme with cyan, lime, mint, violet, and amber circuit accents.
