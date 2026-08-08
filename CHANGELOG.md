@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.5 - 2026-08-08
+
+- Added `cinder-grove`, a smoky woodland dark theme with cinder-orange, moss, fern, creek-blue, violet, and wheat highlights.
+- Updated the live preview build and README gallery for 32 themes.
+
 ## 1.1.4 - 2026-08-08
 
 - Added `obsidian-harbor`, a deep nautical dark theme with seafoam, tide-cyan, harbor-blue, violet, lantern, and coral accents.
