@@ -1,9 +1,10 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
-import { readdirSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { basename } from "node:path";
 
 const themesDir = new URL("../themes/", import.meta.url);
+const screenshotsDir = new URL("../docs/screenshots/", import.meta.url);
 const schemaUrl = "https://raw.githubusercontent.com/earendil-works/pi/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json";
 
 const requiredColorTokens = [
@@ -84,6 +85,37 @@ function assertColorReference(theme, token, value) {
   );
 }
 
+function jpegDimensions(buffer) {
+  assert.equal(buffer[0], 0xff, "JPEG must start with SOI marker");
+  assert.equal(buffer[1], 0xd8, "JPEG must start with SOI marker");
+
+  let offset = 2;
+  while (offset < buffer.length) {
+    while (buffer[offset] === 0xff) offset += 1;
+    const marker = buffer[offset];
+    offset += 1;
+
+    if (marker === 0xd9 || marker === 0xda) break;
+    const length = buffer.readUInt16BE(offset);
+    const isStartOfFrame =
+      (marker >= 0xc0 && marker <= 0xc3) ||
+      (marker >= 0xc5 && marker <= 0xc7) ||
+      (marker >= 0xc9 && marker <= 0xcb) ||
+      (marker >= 0xcd && marker <= 0xcf);
+
+    if (isStartOfFrame) {
+      return {
+        height: buffer.readUInt16BE(offset + 3),
+        width: buffer.readUInt16BE(offset + 5),
+      };
+    }
+
+    offset += length;
+  }
+
+  throw new Error("Unable to read JPEG dimensions");
+}
+
 describe("pi themes", () => {
   const themes = loadThemes();
 
@@ -125,6 +157,17 @@ describe("pi themes", () => {
       for (const token of requiredExportTokens) {
         assert.match(theme.export[token], hexColor, `${theme.name}: export.${token} must be a 6-digit hex color`);
       }
+    }
+  });
+
+  it("has a correctly sized preview screenshot for every theme", () => {
+    for (const { file, theme } of themes) {
+      const screenshot = new URL(`${basename(file, ".json")}.jpg`, screenshotsDir);
+      assert.ok(existsSync(screenshot), `${theme.name}: missing screenshot`);
+
+      const { width, height } = jpegDimensions(readFileSync(screenshot));
+      assert.equal(width, 1440, `${theme.name}: screenshot width must be 1440px`);
+      assert.equal(height, 1100, `${theme.name}: screenshot height must be 1100px`);
     }
   });
 

@@ -118,6 +118,12 @@ Run the local preview server:
 npm run preview
 ```
 
+Use the project prompt template for the repeatable add-theme patch release workflow:
+
+```txt
+/new-theme-patch-release [optional style or name hint]
+```
+
 Build the static GitHub Pages site:
 
 ```bash
