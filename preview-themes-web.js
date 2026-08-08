@@ -95,7 +95,11 @@ const html = String.raw`<!doctype html>
     .topbar { display: flex; justify-content: space-between; gap: 16px; align-items: start; margin-bottom: 18px; }
     .title { margin: 0; color: #eee; font-size: 30px; }
     .sub { color: #aaa; margin-top: 4px; }
-    .copy { border: 1px solid #444; background: #202020; color: #eee; padding: 9px 12px; border-radius: 10px; cursor: pointer; }
+    .copy { border: 1px solid #444; background: #202020; color: #eee; padding: 9px 12px; border-radius: 10px; cursor: pointer; transition: border-color .12s, background .12s, color .12s, transform .12s; }
+    .copy:hover, .copy.copied { border-color: var(--accent, #ffd166); color: #fff; }
+    .copy.copied { background: color-mix(in srgb, var(--accent, #ffd166) 26%, #202020); transform: translateY(-1px); }
+    .toast { position: fixed; right: 24px; bottom: 24px; z-index: 10; max-width: min(360px, calc(100vw - 48px)); padding: 12px 14px; border: 1px solid var(--accent, #ffd166); border-radius: 12px; background: color-mix(in srgb, var(--panel, #151515) 88%, #000 12%); color: var(--fg, #eee); box-shadow: 0 16px 42px rgba(0,0,0,.42); opacity: 0; transform: translateY(10px); pointer-events: none; transition: opacity .18s, transform .18s; }
+    .toast.show { opacity: 1; transform: translateY(0); }
     .grid { display: grid; grid-template-columns: repeat(2, minmax(320px, 1fr)); gap: 16px; }
     .wide { grid-column: 1 / -1; }
     .card { background: #151515; border: 1px solid #333; border-radius: 16px; padding: 16px; box-shadow: 0 16px 40px rgba(0,0,0,.22); }
@@ -148,6 +152,7 @@ const html = String.raw`<!doctype html>
     </aside>
     <main id="preview"></main>
   </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
 <script>
 const themes = __THEMES__;
 let selected = 0;
@@ -158,6 +163,32 @@ const list = document.querySelector('#list');
 const search = document.querySelector('#search');
 const preview = document.querySelector('#preview');
 const count = document.querySelector('#count');
+const toast = document.querySelector('#toast');
+let toastTimer;
+
+function showToast(message) {
+  clearTimeout(toastTimer);
+  toast.textContent = message;
+  toast.classList.add('show');
+  toastTimer = setTimeout(() => toast.classList.remove('show'), 2200);
+}
+
+async function copyInstallCommand(t, button) {
+  try {
+    await navigator.clipboard.writeText(installCommand(t));
+    showToast('Install command copied to clipboard.');
+    if (!button) return;
+    const originalText = button.textContent;
+    button.textContent = 'Copied ✓';
+    button.classList.add('copied');
+    setTimeout(() => {
+      button.textContent = originalText;
+      button.classList.remove('copied');
+    }, 1600);
+  } catch {
+    showToast('Unable to copy automatically. Please copy the command manually.');
+  }
+}
 
 function setVars(t) {
   const r = t.resolved;
@@ -293,7 +324,7 @@ function renderPreview() {
     '<section class="card wide"><h2>Terminal</h2><div class="pi-terminal"><div class="pi-body"><div class="term-content">' + terminalLines.join('') + '</div></div></div></section>',
     '</div>'
   ].join('');
-  document.querySelector('#copy').onclick = async () => navigator.clipboard.writeText(installCommand(t));
+  document.querySelector('#copy').onclick = async (event) => copyInstallCommand(t, event.currentTarget);
 }
 function installCommand(t) { return 'mkdir -p ~/.pi/agent/themes && curl -fsSL https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/themes/' + t.file + ' -o ~/.pi/agent/themes/' + t.file; }
 function select(i, updateHash = false) {
@@ -315,7 +346,7 @@ function selectHashTheme() {
   }
 }
 search.oninput = () => { const q = search.value.toLowerCase(); filtered = themes.filter(t => t.name.toLowerCase().includes(q)); selected = 0; renderList(); renderPreview(); };
-document.addEventListener('keydown', e => { if (e.key === 'ArrowDown') { e.preventDefault(); select(selected + 1, true); } if (e.key === 'ArrowUp') { e.preventDefault(); select(selected - 1, true); } if (e.key === 'Enter') { navigator.clipboard.writeText(installCommand(filtered[selected] || themes[0])); } });
+document.addEventListener('keydown', e => { if (e.key === 'ArrowDown') { e.preventDefault(); select(selected + 1, true); } if (e.key === 'ArrowUp') { e.preventDefault(); select(selected - 1, true); } if (e.key === 'Enter') { copyInstallCommand(filtered[selected] || themes[0]); } });
 window.addEventListener('hashchange', () => { selectHashTheme(); renderList(); renderPreview(); });
 selectHashTheme();
 renderList(); renderPreview();
