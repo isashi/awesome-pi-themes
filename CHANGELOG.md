@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.4 - 2026-08-08
+
+- Added `obsidian-harbor`, a deep nautical dark theme with seafoam, tide-cyan, harbor-blue, violet, lantern, and coral accents.
+- Updated the live preview build and README gallery for 31 themes.
+
 ## 1.1.3 - 2026-08-04
 
 - Added `opal-matrix`, a dark opalescent matrix theme with mint, cyan, violet, rose, and pearl highlights.
