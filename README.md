@@ -36,10 +36,13 @@ Then select a theme from `/settings`, or set it in your pi settings file:
 
 ### Install one theme manually
 
+This uses pi's documented theme directory, honoring `PI_CODING_AGENT_DIR` when set.
+
 ```bash
-mkdir -p ~/.pi/agent/themes
-curl -fsSL https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/themes/princess-nam-rom.json \
-  -o ~/.pi/agent/themes/princess-nam-rom.json
+PI_AGENT_DIR="${PI_CODING_AGENT_DIR:-$HOME/.pi/agent}"
+mkdir -p "$PI_AGENT_DIR/themes"
+curl -fsSL "https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/themes/princess-nam-rom.json" \
+  -o "$PI_AGENT_DIR/themes/princess-nam-rom.json"
 ```
 
 Then select `princess-nam-rom` from `/settings`, or set it as your active theme.

@@ -328,7 +328,7 @@ function renderPreview() {
   copyButton.style.inlineSize = copyButton.offsetWidth + 'px';
   copyButton.onclick = async (event) => copyInstallCommand(t, event.currentTarget);
 }
-function installCommand(t) { return 'mkdir -p ~/.pi/agent/themes && curl -fsSL https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/themes/' + t.file + ' -o ~/.pi/agent/themes/' + t.file; }
+function installCommand(t) { return 'PI_AGENT_DIR="\${PI_CODING_AGENT_DIR:-$HOME/.pi/agent}"; mkdir -p "$PI_AGENT_DIR/themes" && curl -fsSL "https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/themes/' + t.file + '" -o "$PI_AGENT_DIR/themes/' + t.file + '"'; }
 function select(i, updateHash = false) {
   selected = Math.max(0, Math.min(i, filtered.length - 1));
   renderList();
