@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **32 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **33 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -68,6 +68,7 @@ Click a name to open the live preview for that theme.
 | [crimson-noir](https://isashi.github.io/awesome-pi-themes/#crimson-noir) | [<img src="docs/screenshots/crimson-noir.jpg" alt="Screenshot of crimson-noir" width="360">](docs/screenshots/crimson-noir.jpg) |
 | [cyber-mint](https://isashi.github.io/awesome-pi-themes/#cyber-mint) | [<img src="docs/screenshots/cyber-mint.jpg" alt="Screenshot of cyber-mint" width="360">](docs/screenshots/cyber-mint.jpg) |
 | [dragon-lulu](https://isashi.github.io/awesome-pi-themes/#dragon-lulu) | [<img src="docs/screenshots/dragon-lulu.jpg" alt="Screenshot of dragon-lulu" width="360">](docs/screenshots/dragon-lulu.jpg) |
+| [eclipse-tide](https://isashi.github.io/awesome-pi-themes/#eclipse-tide) | [<img src="docs/screenshots/eclipse-tide.jpg" alt="Screenshot of eclipse-tide" width="360">](docs/screenshots/eclipse-tide.jpg) |
 | [ember-sunset](https://isashi.github.io/awesome-pi-themes/#ember-sunset) | [<img src="docs/screenshots/ember-sunset.jpg" alt="Screenshot of ember-sunset" width="360">](docs/screenshots/ember-sunset.jpg) |
 | [enchanted-forest](https://isashi.github.io/awesome-pi-themes/#enchanted-forest) | [<img src="docs/screenshots/enchanted-forest.jpg" alt="Screenshot of enchanted-forest" width="360">](docs/screenshots/enchanted-forest.jpg) |
 | [glitch-carnival](https://isashi.github.io/awesome-pi-themes/#glitch-carnival) | [<img src="docs/screenshots/glitch-carnival.jpg" alt="Screenshot of glitch-carnival" width="360">](docs/screenshots/glitch-carnival.jpg) |

@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.6 - 2026-08-09
+
+- Added `eclipse-tide`, a tidal eclipse dark theme with corona-gold, tide-cyan, lunar-blue, umbra-violet, reef-green, and flare-rose highlights.
+- Updated the live preview build and README gallery for 33 themes.
+
 ## 1.1.5 - 2026-08-08
 
 - Added `cinder-grove`, a smoky woodland dark theme with cinder-orange, moss, fern, creek-blue, violet, and wheat highlights.
