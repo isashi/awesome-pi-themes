@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.7 - 2026-08-09
+
+- Added `basalt-bloom`, a volcanic garden dark theme with copper, marigold, orchid, glacier-blue, lichen-green, and rose highlights.
+- Updated the live preview build and README gallery for 34 themes.
+
 ## 1.1.6 - 2026-08-09
 
 - Added `eclipse-tide`, a tidal eclipse dark theme with corona-gold, tide-cyan, lunar-blue, umbra-violet, reef-green, and flare-rose highlights.
