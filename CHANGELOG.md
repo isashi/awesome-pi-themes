@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.8 - 2026-08-10
+
+- Added `sable-citadel`, a midnight fortress dark theme with citrine, aqua-glass, royal-violet, fern, ember-rose, and silver highlights.
+- Updated the live preview build and README gallery for 35 themes.
+
 ## 1.1.7 - 2026-08-09
 
 - Added `basalt-bloom`, a volcanic garden dark theme with copper, marigold, orchid, glacier-blue, lichen-green, and rose highlights.
