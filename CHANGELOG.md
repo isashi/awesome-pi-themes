@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.9 - 2026-08-10
+
+- Added `polar-lantern`, an arctic midnight dark theme with lantern-gold, glacier-cyan, aurora-green, amethyst, berry, and ice highlights.
+- Updated the live preview build and README gallery for 36 themes.
+
 ## 1.1.8 - 2026-08-10
 
 - Added `sable-citadel`, a midnight fortress dark theme with citrine, aqua-glass, royal-violet, fern, ember-rose, and silver highlights.

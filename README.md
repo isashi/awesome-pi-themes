@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **35 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **36 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -84,6 +84,7 @@ Click a name to open the live preview for that theme.
 | [opal-matrix](https://isashi.github.io/awesome-pi-themes/#opal-matrix) | [<img src="docs/screenshots/opal-matrix.jpg" alt="Screenshot of opal-matrix" width="360">](docs/screenshots/opal-matrix.jpg) |
 | [paper-moon](https://isashi.github.io/awesome-pi-themes/#paper-moon) | [<img src="docs/screenshots/paper-moon.jpg" alt="Screenshot of paper-moon" width="360">](docs/screenshots/paper-moon.jpg) |
 | [plasma-pomegranate](https://isashi.github.io/awesome-pi-themes/#plasma-pomegranate) | [<img src="docs/screenshots/plasma-pomegranate.jpg" alt="Screenshot of plasma-pomegranate" width="360">](docs/screenshots/plasma-pomegranate.jpg) |
+| [polar-lantern](https://isashi.github.io/awesome-pi-themes/#polar-lantern) | [<img src="docs/screenshots/polar-lantern.jpg" alt="Screenshot of polar-lantern" width="360">](docs/screenshots/polar-lantern.jpg) |
 | [princess-nam-rom](https://isashi.github.io/awesome-pi-themes/#princess-nam-rom) | [<img src="docs/screenshots/princess-nam-rom.jpg" alt="Screenshot of princess-nam-rom" width="360">](docs/screenshots/princess-nam-rom.jpg) |
 | [quantum-pickle](https://isashi.github.io/awesome-pi-themes/#quantum-pickle) | [<img src="docs/screenshots/quantum-pickle.jpg" alt="Screenshot of quantum-pickle" width="360">](docs/screenshots/quantum-pickle.jpg) |
 | [radioactive-lullaby](https://isashi.github.io/awesome-pi-themes/#radioactive-lullaby) | [<img src="docs/screenshots/radioactive-lullaby.jpg" alt="Screenshot of radioactive-lullaby" width="360">](docs/screenshots/radioactive-lullaby.jpg) |
