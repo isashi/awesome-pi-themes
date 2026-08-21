@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.11 - 2026-08-21
+
+- Added `varigotti`, a yellowish Ligurian cove dark theme with sunwashed gold, limoncello, sea-cove blue, olive, terracotta, and bougainvillea highlights.
+- Updated the live preview build and README gallery for 38 themes.
+
 ## 1.1.10 - 2026-08-21
 
 - Added `winter-wisp`, a frost-lit midnight dark theme with wisp-cyan, moon-gold, frost-blue, pine-green, violet haze, and rose highlights.
