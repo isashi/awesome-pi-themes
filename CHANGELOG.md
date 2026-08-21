@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.10 - 2026-08-21
+
+- Added `winter-wisp`, a frost-lit midnight dark theme with wisp-cyan, moon-gold, frost-blue, pine-green, violet haze, and rose highlights.
+- Updated the live preview build and README gallery for 37 themes.
+
 ## 1.1.9 - 2026-08-10
 
 - Added `polar-lantern`, an arctic midnight dark theme with lantern-gold, glacier-cyan, aurora-green, amethyst, berry, and ice highlights.
