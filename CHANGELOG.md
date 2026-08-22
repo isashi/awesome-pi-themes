@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.12 - 2026-08-22
+
+- Added `willow-wraith`, a haunted willow dark theme with willow-glow, ghost-mint, bog-cyan, moss, night-violet, foxfire, and specter-rose highlights.
+- Updated the live preview build and README gallery for 39 themes.
+
 ## 1.1.11 - 2026-08-21
 
 - Added `varigotti`, a yellowish Ligurian cove dark theme with sunwashed gold, limoncello, sea-cove blue, olive, terracotta, and bougainvillea highlights.
