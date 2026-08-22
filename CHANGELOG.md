@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.13 - 2026-08-22
+
+- Added `copper-comet`, a deep-space dark theme with comet-copper, ember-gold, ion-teal, orbit-blue, nebula-violet, verdigris, and plasma-rose highlights.
+- Updated the live preview build and README gallery for 40 themes.
+
 ## 1.1.12 - 2026-08-22
 
 - Added `willow-wraith`, a haunted willow dark theme with willow-glow, ghost-mint, bog-cyan, moss, night-violet, foxfire, and specter-rose highlights.
