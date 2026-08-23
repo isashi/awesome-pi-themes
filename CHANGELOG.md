@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.14 - 2026-08-23
+
+- Added `iron-lotus`, a blackened temple dark theme with lotus-pink, temple-gold, steel-blue, jade-mist, amethyst, and ember-clay highlights.
+- Updated the live preview build and README gallery for 41 themes.
+
 ## 1.1.13 - 2026-08-22
 
 - Added `copper-comet`, a deep-space dark theme with comet-copper, ember-gold, ion-teal, orbit-blue, nebula-violet, verdigris, and plasma-rose highlights.
