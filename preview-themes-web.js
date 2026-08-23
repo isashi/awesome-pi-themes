@@ -138,8 +138,35 @@ const html = String.raw`<!doctype html>
     .pi-footer-path { padding-top: 6px; color: color-mix(in srgb, var(--accent) 68%, var(--fg) 32%); }
     .pi-footer-status { display: flex; justify-content: space-between; gap: 20px; padding: 2px 0 12px; color: color-mix(in srgb, var(--accent) 68%, var(--fg) 32%); }
     .pi-cursor { display: inline-block; width: 9px; height: 1.15em; background: var(--fg); vertical-align: -2px; margin-left: 2px; animation: blink 1.05s steps(1) infinite; }
+    .mobile-controls { display: none; }
     @keyframes blink { 50% { opacity: .12; } }
-    @media (max-width: 900px) { .app { grid-template-columns: 1fr; } aside { position: static; height: auto; } .grid { grid-template-columns: 1fr; } .wide { grid-column: auto; } }
+    @media (max-width: 900px) {
+      body { overflow-x: hidden; }
+      .app { grid-template-columns: 1fr; }
+      aside { position: static; height: auto; border-right: 0; border-bottom: 1px solid #333; padding: 12px 14px; }
+      aside input, aside .hint, aside .theme-list { display: none; }
+      aside h1 { margin: 0; }
+      main { padding: 16px 14px calc(92px + env(safe-area-inset-bottom)); overflow-x: hidden; }
+      .topbar { align-items: start; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; }
+      .title { font-size: 26px; line-height: 1.1; }
+      .copy { padding: 8px 10px; font-size: 12px; }
+      .grid { grid-template-columns: 1fr; gap: 12px; }
+      .wide { grid-column: auto; }
+      .card { border-radius: 14px; padding: 12px; }
+      .palette { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+      .chip { height: 34px; }
+      .label { padding: 6px; font-size: 9px; }
+      .pi-body { min-height: 700px; overflow-x: hidden; font-size: 12px; }
+      .term-top { align-items: start; white-space: normal; }
+      .term-content { min-width: 0; width: 100%; }
+      .term-line { overflow-wrap: anywhere; word-break: break-word; }
+      .term-input { margin-left: 0; margin-right: 0; }
+      .pi-footer-status { flex-direction: column; gap: 2px; }
+      .mobile-controls { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; align-items: center; gap: 8px; padding: 10px 12px calc(10px + env(safe-area-inset-bottom)); border-top: 1px solid rgba(255,255,255,.16); background: rgba(18,18,18,.92); backdrop-filter: blur(14px); box-shadow: 0 -14px 36px rgba(0,0,0,.42); }
+      .mobile-controls button, .mobile-controls select { min-height: 44px; border: 1px solid #444; border-radius: 12px; background: #202020; color: #eee; font: inherit; }
+      .mobile-controls button { flex: 0 0 44px; font-size: 22px; line-height: 1; }
+      .mobile-controls select { flex: 1 1 auto; min-width: 0; padding: 0 12px; overflow: hidden; text-overflow: ellipsis; }
+    }
   </style>
 </head>
 <body>
@@ -151,6 +178,11 @@ const html = String.raw`<!doctype html>
       <div id="list" class="theme-list"></div>
     </aside>
     <main id="preview"></main>
+  </div>
+  <div id="mobileControls" class="mobile-controls" aria-label="Theme controls">
+    <button id="prevTheme" type="button" aria-label="Previous theme">‹</button>
+    <select id="themeSelect" aria-label="Select theme"></select>
+    <button id="nextTheme" type="button" aria-label="Next theme">›</button>
   </div>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 <script>
@@ -164,6 +196,9 @@ const search = document.querySelector('#search');
 const preview = document.querySelector('#preview');
 const count = document.querySelector('#count');
 const toast = document.querySelector('#toast');
+const themeSelect = document.querySelector('#themeSelect');
+const prevTheme = document.querySelector('#prevTheme');
+const nextTheme = document.querySelector('#nextTheme');
 let toastTimer;
 
 function showToast(message) {
@@ -209,10 +244,31 @@ function renderList() {
   list.querySelectorAll('button').forEach(b => b.onclick = () => select(Number(b.dataset.i), true));
   list.querySelector('.active')?.scrollIntoView({ block: 'nearest' });
 }
+function renderMobileControls(t) {
+  if (!themeSelect) return;
+  if (themeSelect.options.length !== themes.length) {
+    themeSelect.innerHTML = themes.map((theme) => '<option value="' + theme.name + '">' + theme.name + '</option>').join('');
+  }
+  themeSelect.value = t.name;
+}
+
+function selectGlobal(index, updateHash = true) {
+  filtered = themes.slice();
+  search.value = "";
+  select((index + themes.length) % themes.length, updateHash);
+}
+
+function selectGlobalOffset(delta) {
+  const t = filtered[selected] || themes[0];
+  const index = indexByThemeName(t.name);
+  if (index !== -1) selectGlobal(index + delta, true);
+}
+
 function renderPreview() {
   const t = filtered[selected] || themes[0];
   if (!t) return;
   setVars(t);
+  renderMobileControls(t);
   const vars = ['bg','fg','panel','panelAlt','accent','secondary','success','warning','error','muted','diffAdded','diffRemoved'];
   const themeList = themes.map(theme => theme.name).join(', ');
   const terminalLines = [
@@ -348,6 +404,9 @@ function selectHashTheme() {
   }
 }
 search.oninput = () => { const q = search.value.toLowerCase(); filtered = themes.filter(t => t.name.toLowerCase().includes(q)); selected = 0; renderList(); renderPreview(); };
+themeSelect.onchange = () => { const index = indexByThemeName(themeSelect.value); if (index !== -1) selectGlobal(index, true); };
+prevTheme.onclick = () => selectGlobalOffset(-1);
+nextTheme.onclick = () => selectGlobalOffset(1);
 document.addEventListener('keydown', e => { if (e.key === 'ArrowDown') { e.preventDefault(); select(selected + 1, true); } if (e.key === 'ArrowUp') { e.preventDefault(); select(selected - 1, true); } if (e.key === 'Enter') { copyInstallCommand(filtered[selected] || themes[0]); } });
 window.addEventListener('hashchange', () => { selectHashTheme(); renderList(); renderPreview(); });
 selectHashTheme();
