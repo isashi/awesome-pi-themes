@@ -2,6 +2,12 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.15 - 2026-08-23
+
+- Added `moss-mirage`, a moss-lit oasis dark theme with moss-glow, mirage-cyan, spring-blue, lichen, orchid-haze, dune-gold, and coral-bloom highlights.
+- Standardized the Ligurian cove theme slug as `varigotti-sea` across theme files, gallery links, screenshots, and preview data.
+- Updated the live preview build and README gallery for 42 themes.
+
 ## 1.1.14 - 2026-08-23
 
 - Added `iron-lotus`, a blackened temple dark theme with lotus-pink, temple-gold, steel-blue, jade-mist, amethyst, and ember-clay highlights.
@@ -19,7 +25,7 @@ All notable changes to this project are documented here.
 
 ## 1.1.11 - 2026-08-21
 
-- Added `varigotti`, a yellowish Ligurian cove dark theme with sunwashed gold, limoncello, sea-cove blue, olive, terracotta, and bougainvillea highlights.
+- Added `varigotti-sea`, a yellowish Ligurian cove dark theme with sunwashed gold, limoncello, sea-cove blue, olive, terracotta, and bougainvillea highlights.
 - Updated the live preview build and README gallery for 38 themes.
 
 ## 1.1.10 - 2026-08-21

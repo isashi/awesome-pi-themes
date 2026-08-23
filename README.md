@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **41 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **42 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -80,6 +80,7 @@ Click a name to open the live preview for that theme.
 | [lavender-mist](https://isashi.github.io/awesome-pi-themes/#lavender-mist) | [<img src="docs/screenshots/lavender-mist.jpg" alt="Screenshot of lavender-mist" width="360">](docs/screenshots/lavender-mist.jpg) |
 | [meomeo-mang](https://isashi.github.io/awesome-pi-themes/#meomeo-mang) | [<img src="docs/screenshots/meomeo-mang.jpg" alt="Screenshot of meomeo-mang" width="360">](docs/screenshots/meomeo-mang.jpg) |
 | [midnight-orchid](https://isashi.github.io/awesome-pi-themes/#midnight-orchid) | [<img src="docs/screenshots/midnight-orchid.jpg" alt="Screenshot of midnight-orchid" width="360">](docs/screenshots/midnight-orchid.jpg) |
+| [moss-mirage](https://isashi.github.io/awesome-pi-themes/#moss-mirage) | [<img src="docs/screenshots/moss-mirage.jpg" alt="Screenshot of moss-mirage" width="360">](docs/screenshots/moss-mirage.jpg) |
 | [neon-sakura](https://isashi.github.io/awesome-pi-themes/#neon-sakura) | [<img src="docs/screenshots/neon-sakura.jpg" alt="Screenshot of neon-sakura" width="360">](docs/screenshots/neon-sakura.jpg) |
 | [noodle-nebula](https://isashi.github.io/awesome-pi-themes/#noodle-nebula) | [<img src="docs/screenshots/noodle-nebula.jpg" alt="Screenshot of noodle-nebula" width="360">](docs/screenshots/noodle-nebula.jpg) |
 | [obsidian-harbor](https://isashi.github.io/awesome-pi-themes/#obsidian-harbor) | [<img src="docs/screenshots/obsidian-harbor.jpg" alt="Screenshot of obsidian-harbor" width="360">](docs/screenshots/obsidian-harbor.jpg) |
@@ -95,7 +96,7 @@ Click a name to open the live preview for that theme.
 | [starry-night](https://isashi.github.io/awesome-pi-themes/#starry-night) | [<img src="docs/screenshots/starry-night.jpg" alt="Screenshot of starry-night" width="360">](docs/screenshots/starry-night.jpg) |
 | [static-dragonfruit](https://isashi.github.io/awesome-pi-themes/#static-dragonfruit) | [<img src="docs/screenshots/static-dragonfruit.jpg" alt="Screenshot of static-dragonfruit" width="360">](docs/screenshots/static-dragonfruit.jpg) |
 | [tuscan-sun](https://isashi.github.io/awesome-pi-themes/#tuscan-sun) | [<img src="docs/screenshots/tuscan-sun.jpg" alt="Screenshot of tuscan-sun" width="360">](docs/screenshots/tuscan-sun.jpg) |
-| [varigotti](https://isashi.github.io/awesome-pi-themes/#varigotti) | [<img src="docs/screenshots/varigotti.jpg" alt="Screenshot of varigotti" width="360">](docs/screenshots/varigotti.jpg) |
+| [varigotti-sea](https://isashi.github.io/awesome-pi-themes/#varigotti-sea) | [<img src="docs/screenshots/varigotti-sea.jpg" alt="Screenshot of varigotti-sea" width="360">](docs/screenshots/varigotti-sea.jpg) |
 | [velvet-meteor](https://isashi.github.io/awesome-pi-themes/#velvet-meteor) | [<img src="docs/screenshots/velvet-meteor.jpg" alt="Screenshot of velvet-meteor" width="360">](docs/screenshots/velvet-meteor.jpg) |
 | [volcanic-bubblegum](https://isashi.github.io/awesome-pi-themes/#volcanic-bubblegum) | [<img src="docs/screenshots/volcanic-bubblegum.jpg" alt="Screenshot of volcanic-bubblegum" width="360">](docs/screenshots/volcanic-bubblegum.jpg) |
 | [willow-wraith](https://isashi.github.io/awesome-pi-themes/#willow-wraith) | [<img src="docs/screenshots/willow-wraith.jpg" alt="Screenshot of willow-wraith" width="360">](docs/screenshots/willow-wraith.jpg) |
