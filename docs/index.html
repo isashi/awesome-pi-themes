@@ -36,6 +36,9 @@
     pre { margin: 0; overflow: auto; padding: 14px; border: 1px solid var(--border); border-radius: 12px; background: var(--bg); line-height: 1.45; }
     code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
     .kw { color: var(--kw); } .fn { color: var(--fn); } .str { color: var(--str); } .num { color: var(--num); } .op { color: var(--op); } .com { color: var(--comment); }
+    .palette-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+    .palette-head h2 { margin: 0; }
+    .palette-toggle, .palette-summary { display: none; }
     .palette { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 8px; width: 100%; }
     .color { min-width: 0; border: 1px solid #333; border-radius: 10px; overflow: hidden; background: #202020; }
     .chip { height: 38px; }
@@ -79,6 +82,12 @@
       .grid { grid-template-columns: 1fr; gap: 12px; }
       .wide { grid-column: auto; }
       .card { border-radius: 14px; padding: 12px; }
+      .palette-head { margin-bottom: 8px; }
+      .palette-toggle { display: inline-flex; align-items: center; justify-content: center; min-height: 34px; padding: 0 10px; border: 1px solid #444; border-radius: 999px; background: #202020; color: #eee; font: inherit; font-size: 12px; }
+      .palette-summary { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 4px; width: 100%; padding: 0; border: 0; background: transparent; cursor: pointer; }
+      .palette-summary-chip { height: 22px; min-width: 0; border: 1px solid rgba(255,255,255,.16); border-radius: 6px; }
+      .palette-details { display: none; margin-top: 10px; }
+      .palette-card.expanded .palette-details { display: grid; }
       .palette { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
       .chip { height: 34px; }
       .label { padding: 6px; font-size: 9px; }
@@ -302,13 +311,24 @@ function renderPreview() {
   preview.innerHTML = [
     '<div class="topbar"><div><h1 class="title">' + t.name + '</h1><div class="sub">' + t.file + '</div></div><button class="copy" id="copy">Copy install command</button></div>',
     '<div class="grid">',
-    '<section class="card wide"><h2>Palette</h2><div class="palette">' + vars.map(k => '<div class="color"><div class="chip" style="background:' + (t.resolved[k] || t.vars[k]) + '"></div><div class="label">' + k + '<br>' + (t.resolved[k] || t.vars[k]) + '</div></div>').join('') + '</div></section>',
+    '<section class="card wide palette-card"><div class="palette-head"><h2>Palette</h2><button class="palette-toggle" id="paletteToggle" type="button" aria-expanded="false" aria-controls="paletteDetails">Show details</button></div><button class="palette-summary" id="paletteSummary" type="button" aria-label="Show palette details">' + vars.map(k => '<span class="palette-summary-chip" style="background:' + (t.resolved[k] || t.vars[k]) + '"></span>').join('') + '</button><div class="palette palette-details" id="paletteDetails">' + vars.map(k => '<div class="color"><div class="chip" style="background:' + (t.resolved[k] || t.vars[k]) + '"></div><div class="label">' + k + '<br>' + (t.resolved[k] || t.vars[k]) + '</div></div>').join('') + '</div></section>',
     '<section class="card wide"><h2>Terminal</h2><div class="pi-terminal"><div class="pi-body"><div class="term-content">' + terminalLines.join('') + '</div></div></div></section>',
     '</div>'
   ].join('');
   const copyButton = document.querySelector('#copy');
   copyButton.style.inlineSize = copyButton.offsetWidth + 'px';
   copyButton.onclick = async (event) => copyInstallCommand(t, event.currentTarget);
+  const paletteCard = document.querySelector('.palette-card');
+  const paletteToggle = document.querySelector('#paletteToggle');
+  const paletteSummary = document.querySelector('#paletteSummary');
+  function togglePalette() {
+    const expanded = paletteCard.classList.toggle('expanded');
+    paletteToggle.setAttribute('aria-expanded', String(expanded));
+    paletteToggle.textContent = expanded ? 'Hide details' : 'Show details';
+    paletteSummary.setAttribute('aria-label', expanded ? 'Hide palette details' : 'Show palette details');
+  }
+  paletteToggle.onclick = togglePalette;
+  paletteSummary.onclick = togglePalette;
 }
 function installCommand(t) { return 'PI_AGENT_DIR="\${PI_CODING_AGENT_DIR:-$HOME/.pi/agent}"; mkdir -p "$PI_AGENT_DIR/themes" && curl -fsSL "https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/themes/' + t.file + '" -o "$PI_AGENT_DIR/themes/' + t.file + '"'; }
 function select(i, updateHash = false) {
