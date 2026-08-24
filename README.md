@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **43 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **44 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -83,6 +83,7 @@ Click a name to open the live preview for that theme.
 | [moonlit-terrace](https://isashi.github.io/awesome-pi-themes/#moonlit-terrace) | [<img src="docs/screenshots/moonlit-terrace.jpg" alt="Screenshot of moonlit-terrace" width="360">](docs/screenshots/moonlit-terrace.jpg) |
 | [moss-mirage](https://isashi.github.io/awesome-pi-themes/#moss-mirage) | [<img src="docs/screenshots/moss-mirage.jpg" alt="Screenshot of moss-mirage" width="360">](docs/screenshots/moss-mirage.jpg) |
 | [neon-sakura](https://isashi.github.io/awesome-pi-themes/#neon-sakura) | [<img src="docs/screenshots/neon-sakura.jpg" alt="Screenshot of neon-sakura" width="360">](docs/screenshots/neon-sakura.jpg) |
+| [nocturne-garden](https://isashi.github.io/awesome-pi-themes/#nocturne-garden) | [<img src="docs/screenshots/nocturne-garden.jpg" alt="Screenshot of nocturne-garden" width="360">](docs/screenshots/nocturne-garden.jpg) |
 | [noodle-nebula](https://isashi.github.io/awesome-pi-themes/#noodle-nebula) | [<img src="docs/screenshots/noodle-nebula.jpg" alt="Screenshot of noodle-nebula" width="360">](docs/screenshots/noodle-nebula.jpg) |
 | [obsidian-harbor](https://isashi.github.io/awesome-pi-themes/#obsidian-harbor) | [<img src="docs/screenshots/obsidian-harbor.jpg" alt="Screenshot of obsidian-harbor" width="360">](docs/screenshots/obsidian-harbor.jpg) |
 | [opal-matrix](https://isashi.github.io/awesome-pi-themes/#opal-matrix) | [<img src="docs/screenshots/opal-matrix.jpg" alt="Screenshot of opal-matrix" width="360">](docs/screenshots/opal-matrix.jpg) |

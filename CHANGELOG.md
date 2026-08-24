@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.17 - 2026-08-24
+
+- Added `nocturne-garden`, a moonlit botanical dark theme with moon-vine, firefly-gold, pond-cyan, iris-blue, night-lilac, moss-leaf, and rosehip highlights.
+- Updated the live preview build and README gallery for 44 themes.
+
 ## 1.1.16 - 2026-08-24
 
 - Added `moonlit-terrace`, a moon-washed Mediterranean terrace dark theme with pearl, terrace-gold, jasmine, sea-glass, tile-blue, wisteria, and terra-rose highlights.
