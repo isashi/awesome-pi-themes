@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.16 - 2026-08-24
+
+- Added `moonlit-terrace`, a moon-washed Mediterranean terrace dark theme with pearl, terrace-gold, jasmine, sea-glass, tile-blue, wisteria, and terra-rose highlights.
+- Updated the live preview build and README gallery for 43 themes.
+
 ## 1.1.15 - 2026-08-23
 
 - Added `moss-mirage`, a moss-lit oasis dark theme with moss-glow, mirage-cyan, spring-blue, lichen, orchid-haze, dune-gold, and coral-bloom highlights.
