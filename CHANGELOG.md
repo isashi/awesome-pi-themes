@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.18 - 2026-08-25
+
+- Added `stormglass-forge`, a storm-tempered forge dark theme with stormglass-cyan, forge-gold, tempered-blue, verdigris, arc-violet, slag-green, and ember-rose highlights.
+- Updated the live preview build and README gallery for 45 themes.
+
 ## 1.1.17 - 2026-08-24
 
 - Added `nocturne-garden`, a moonlit botanical dark theme with moon-vine, firefly-gold, pond-cyan, iris-blue, night-lilac, moss-leaf, and rosehip highlights.
