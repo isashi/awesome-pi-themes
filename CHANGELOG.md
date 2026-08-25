@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.19 - 2026-08-25
+
+- Added `sapphire-ember`, a blue-coal dark theme with sapphire, ember, flare-gold, aqua-smoke, mint-ash, violet-heat, and ruby-coal highlights.
+- Updated the live preview build and README gallery for 46 themes.
+
 ## 1.1.18 - 2026-08-25
 
 - Added `stormglass-forge`, a storm-tempered forge dark theme with stormglass-cyan, forge-gold, tempered-blue, verdigris, arc-violet, slag-green, and ember-rose highlights.
