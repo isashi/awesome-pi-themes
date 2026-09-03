@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.20 - 2026-09-03
+
+- Added `inkfire-bay`, an inky coastal dark theme with inkfire-coral, tide-cyan, lantern-gold, seafoam, lilac-haze, and ember-rose highlights.
+- Updated the live preview build and README gallery for 47 themes.
+
 ## 1.1.19 - 2026-08-25
 
 - Added `sapphire-ember`, a blue-coal dark theme with sapphire, ember, flare-gold, aqua-smoke, mint-ash, violet-heat, and ruby-coal highlights.

@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **46 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **47 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -16,7 +16,7 @@ Browse the live gallery:
 
 Featured theme:
 
-[![Starry Night screenshot](docs/screenshots/starry-night.jpg)](https://isashi.github.io/awesome-pi-themes/#starry-night)
+[![Inkfire Bay screenshot](docs/screenshots/inkfire-bay.jpg)](https://isashi.github.io/awesome-pi-themes/#inkfire-bay)
 
 ## Install
 
@@ -75,6 +75,7 @@ Click a name to open the live preview for that theme.
 | [enchanted-forest](https://isashi.github.io/awesome-pi-themes/#enchanted-forest) | [<img src="docs/screenshots/enchanted-forest.jpg" alt="Screenshot of enchanted-forest" width="360">](docs/screenshots/enchanted-forest.jpg) |
 | [glitch-carnival](https://isashi.github.io/awesome-pi-themes/#glitch-carnival) | [<img src="docs/screenshots/glitch-carnival.jpg" alt="Screenshot of glitch-carnival" width="360">](docs/screenshots/glitch-carnival.jpg) |
 | [golden-dusk](https://isashi.github.io/awesome-pi-themes/#golden-dusk) | [<img src="docs/screenshots/golden-dusk.jpg" alt="Screenshot of golden-dusk" width="360">](docs/screenshots/golden-dusk.jpg) |
+| [inkfire-bay](https://isashi.github.io/awesome-pi-themes/#inkfire-bay) | [<img src="docs/screenshots/inkfire-bay.jpg" alt="Screenshot of inkfire-bay" width="360">](docs/screenshots/inkfire-bay.jpg) |
 | [iron-lotus](https://isashi.github.io/awesome-pi-themes/#iron-lotus) | [<img src="docs/screenshots/iron-lotus.jpg" alt="Screenshot of iron-lotus" width="360">](docs/screenshots/iron-lotus.jpg) |
 | [laser-swamp](https://isashi.github.io/awesome-pi-themes/#laser-swamp) | [<img src="docs/screenshots/laser-swamp.jpg" alt="Screenshot of laser-swamp" width="360">](docs/screenshots/laser-swamp.jpg) |
 | [lavender-mist](https://isashi.github.io/awesome-pi-themes/#lavender-mist) | [<img src="docs/screenshots/lavender-mist.jpg" alt="Screenshot of lavender-mist" width="360">](docs/screenshots/lavender-mist.jpg) |
