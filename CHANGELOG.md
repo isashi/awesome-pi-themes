@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.21 - 2026-09-04
+
+- Added `petrol-peony`, a dark petrol-night theme with peony pink, petrol teal, amber, jade, periwinkle, and plum highlights.
+- Updated the live preview build and README gallery for 48 themes.
+
 ## 1.1.20 - 2026-09-03
 
 - Added `inkfire-bay`, an inky coastal dark theme with inkfire-coral, tide-cyan, lantern-gold, seafoam, lilac-haze, and ember-rose highlights.

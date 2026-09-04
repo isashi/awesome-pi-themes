@@ -1,9 +1,9 @@
 {
   "name": "awesome-pi-themes",
-  "version": "1.1.20",
+  "version": "1.1.21",
   "private": false,
   "type": "module",
-  "description": "A curated collection of 47 original dark themes for Pi Coding Agent with a live web preview",
+  "description": "A curated collection of 48 original dark themes for Pi Coding Agent with a live web preview",
   "homepage": "https://isashi.github.io/awesome-pi-themes/",
   "repository": {
     "type": "git",
@@ -49,7 +49,7 @@
     "themes": [
       "./themes"
     ],
-    "image": "https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/inkfire-bay.jpg"
+    "image": "https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/petrol-peony.jpg"
   },
   "author": "isashi",
   "engines": {

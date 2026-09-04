@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **47 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **48 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -16,7 +16,7 @@ Browse the live gallery:
 
 Featured theme:
 
-[![Inkfire Bay screenshot](docs/screenshots/inkfire-bay.jpg)](https://isashi.github.io/awesome-pi-themes/#inkfire-bay)
+[![Petrol Peony screenshot](docs/screenshots/petrol-peony.jpg)](https://isashi.github.io/awesome-pi-themes/#petrol-peony)
 
 ## Install
 
@@ -89,6 +89,7 @@ Click a name to open the live preview for that theme.
 | [obsidian-harbor](https://isashi.github.io/awesome-pi-themes/#obsidian-harbor) | [<img src="docs/screenshots/obsidian-harbor.jpg" alt="Screenshot of obsidian-harbor" width="360">](docs/screenshots/obsidian-harbor.jpg) |
 | [opal-matrix](https://isashi.github.io/awesome-pi-themes/#opal-matrix) | [<img src="docs/screenshots/opal-matrix.jpg" alt="Screenshot of opal-matrix" width="360">](docs/screenshots/opal-matrix.jpg) |
 | [paper-moon](https://isashi.github.io/awesome-pi-themes/#paper-moon) | [<img src="docs/screenshots/paper-moon.jpg" alt="Screenshot of paper-moon" width="360">](docs/screenshots/paper-moon.jpg) |
+| [petrol-peony](https://isashi.github.io/awesome-pi-themes/#petrol-peony) | [<img src="docs/screenshots/petrol-peony.jpg" alt="Screenshot of petrol-peony" width="360">](docs/screenshots/petrol-peony.jpg) |
 | [plasma-pomegranate](https://isashi.github.io/awesome-pi-themes/#plasma-pomegranate) | [<img src="docs/screenshots/plasma-pomegranate.jpg" alt="Screenshot of plasma-pomegranate" width="360">](docs/screenshots/plasma-pomegranate.jpg) |
 | [polar-lantern](https://isashi.github.io/awesome-pi-themes/#polar-lantern) | [<img src="docs/screenshots/polar-lantern.jpg" alt="Screenshot of polar-lantern" width="360">](docs/screenshots/polar-lantern.jpg) |
 | [princess-nam-rom](https://isashi.github.io/awesome-pi-themes/#princess-nam-rom) | [<img src="docs/screenshots/princess-nam-rom.jpg" alt="Screenshot of princess-nam-rom" width="360">](docs/screenshots/princess-nam-rom.jpg) |
