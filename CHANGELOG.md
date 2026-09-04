@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.22 - 2026-09-04
+
+- Added `chrome-orchid`, a polished dark theme with chrome silver, orchid violet, iris-blue, mint-glass, amber, and rose-quartz highlights.
+- Updated the live preview build and README gallery for 49 themes.
+
 ## 1.1.21 - 2026-09-04
 
 - Added `petrol-peony`, a dark petrol-night theme with peony pink, petrol teal, amber, jade, periwinkle, and plum highlights.
