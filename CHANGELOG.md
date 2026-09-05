@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.23 - 2026-09-05
+
+- Added `violet-breakwater`, a deep coastal dark theme with breakwater cyan, violet, harbor-blue, seafoam, lantern-gold, and coral-signal highlights.
+- Updated the live preview build and README gallery for 50 themes.
+
 ## 1.1.22 - 2026-09-04
 
 - Added `chrome-orchid`, a polished dark theme with chrome silver, orchid violet, iris-blue, mint-glass, amber, and rose-quartz highlights.
