@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.24 - 2026-09-06
+
+- Added `lunar-alchemy`, a moonlit laboratory dark theme with alchemist-gold, elixir-teal, astral-blue, mystic-violet, verdant-glass, and ruby-phial highlights.
+- Updated the live preview build and README gallery for 51 themes.
+
 ## 1.1.23 - 2026-09-05
 
 - Added `violet-breakwater`, a deep coastal dark theme with breakwater cyan, violet, harbor-blue, seafoam, lantern-gold, and coral-signal highlights.

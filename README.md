@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **50 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **51 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -80,6 +80,7 @@ Click a name to open the live preview for that theme.
 | [iron-lotus](https://isashi.github.io/awesome-pi-themes/#iron-lotus) | [<img src="docs/screenshots/iron-lotus.jpg" alt="Screenshot of iron-lotus" width="360">](docs/screenshots/iron-lotus.jpg) |
 | [laser-swamp](https://isashi.github.io/awesome-pi-themes/#laser-swamp) | [<img src="docs/screenshots/laser-swamp.jpg" alt="Screenshot of laser-swamp" width="360">](docs/screenshots/laser-swamp.jpg) |
 | [lavender-mist](https://isashi.github.io/awesome-pi-themes/#lavender-mist) | [<img src="docs/screenshots/lavender-mist.jpg" alt="Screenshot of lavender-mist" width="360">](docs/screenshots/lavender-mist.jpg) |
+| [lunar-alchemy](https://isashi.github.io/awesome-pi-themes/#lunar-alchemy) | [<img src="docs/screenshots/lunar-alchemy.jpg" alt="Screenshot of lunar-alchemy" width="360">](docs/screenshots/lunar-alchemy.jpg) |
 | [meomeo-mang](https://isashi.github.io/awesome-pi-themes/#meomeo-mang) | [<img src="docs/screenshots/meomeo-mang.jpg" alt="Screenshot of meomeo-mang" width="360">](docs/screenshots/meomeo-mang.jpg) |
 | [midnight-orchid](https://isashi.github.io/awesome-pi-themes/#midnight-orchid) | [<img src="docs/screenshots/midnight-orchid.jpg" alt="Screenshot of midnight-orchid" width="360">](docs/screenshots/midnight-orchid.jpg) |
 | [moonlit-terrace](https://isashi.github.io/awesome-pi-themes/#moonlit-terrace) | [<img src="docs/screenshots/moonlit-terrace.jpg" alt="Screenshot of moonlit-terrace" width="360">](docs/screenshots/moonlit-terrace.jpg) |
