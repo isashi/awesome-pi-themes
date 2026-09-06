@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.1.25 - 2026-09-06
+
+- Added `nebula-scriptorium`, a starbound archive dark theme with ink-violet, quill-cyan, parchment-gold, star-mint, comet-blue, and rose-seal highlights.
+- Updated the live preview build and README gallery for 52 themes.
+
 ## 1.1.24 - 2026-09-06
 
 - Added `lunar-alchemy`, a moonlit laboratory dark theme with alchemist-gold, elixir-teal, astral-blue, mystic-violet, verdant-glass, and ruby-phial highlights.
