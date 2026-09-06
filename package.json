@@ -1,6 +1,6 @@
 {
   "name": "awesome-pi-themes",
-  "version": "1.1.25",
+  "version": "1.2.0",
   "private": false,
   "type": "module",
   "description": "A curated collection of 52 original dark themes for Pi Coding Agent with a live web preview",
@@ -38,6 +38,7 @@
   },
   "files": [
     "themes",
+    "extensions",
     "test",
     "README.md",
     "CHANGELOG.md",
@@ -48,6 +49,9 @@
   "pi": {
     "themes": [
       "./themes"
+    ],
+    "extensions": [
+      "./extensions"
     ],
     "image": "https://raw.githubusercontent.com/isashi/awesome-pi-themes/main/docs/screenshots/violet-breakwater.jpg"
   },

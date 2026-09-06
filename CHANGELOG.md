@@ -2,6 +2,20 @@
 
 All notable changes to this project are documented here.
 
+## 1.2.0 - 2026-09-06
+
+- Added an opt-in `extensions/look-pack.ts` companion extension: a branded startup
+  header and a powerline-style footer (git branch, context-usage gauge, model,
+  tokens, cost) built entirely from the active theme's own color tokens. Disabled
+  by default; toggle with `/look-pack` inside pi. The choice persists across
+  sessions.
+- Fixed the web preview coloring plain terminal text from the theme's `fg`-like
+  var instead of `colors.text`. Verified against real pi `/export` session HTML:
+  every theme in this repo sets `colors.text` to `""`, which pi always renders as
+  a neutral `#e5e5e7`, never the theme's accent foreground.
+- Added a "Look pack" toggle to the live preview gallery to compare the default
+  footer against the look-pack style for any theme.
+
 ## 1.1.25 - 2026-09-06
 
 - Added `nebula-scriptorium`, a starbound archive dark theme with ink-violet, quill-cyan, parchment-gold, star-mint, comet-blue, and rose-seal highlights.
