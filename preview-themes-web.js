@@ -23,7 +23,12 @@ function loadThemes() {
 }
 
 function resolveColor(theme, token, fallback = "#ffffff") {
-  if (!token) return theme.vars?.fg || fallback;
+  // pi's real theme engine treats an empty color token as "inherit the terminal's
+  // default foreground", and its own HTML session export (getResolvedThemeColors)
+  // falls back to this exact neutral gray rather than the theme's accent fg.
+  // Verified against real `/export` output across multiple themes: every theme in
+  // this repo sets colors.text to "", and it always renders as #e5e5e7, never vars.fg.
+  if (!token) return "#e5e5e7";
   if (typeof token === "string" && token.startsWith("#")) return token;
   return theme.vars?.[token] || fallback;
 }
@@ -34,7 +39,7 @@ function enrichTheme(theme) {
     ...theme,
     resolved: {
       bg: theme.export?.pageBg || theme.vars?.bg || "#111111",
-      fg: theme.vars?.fg || "#eeeeee",
+      fg: resolveColor(theme, c.text, theme.vars?.fg || "#eeeeee"),
       panel: theme.vars?.panel || theme.export?.cardBg || theme.vars?.bg || "#181818",
       panelAlt: theme.vars?.panelAlt || theme.export?.infoBg || theme.vars?.bg || "#202020",
       accent: resolveColor(theme, c.accent, theme.vars?.accent || "#ffd166"),
