@@ -53,6 +53,37 @@ Then select `princess-nam-rom` from `/settings`, or set it as your active theme.
 pi --theme ./themes/princess-nam-rom.json
 ```
 
+## Optional: look pack (header/footer)
+
+This package also ships an **opt-in** extension, `extensions/look-pack.ts`, that
+replaces pi's built-in startup header with a branded banner and the footer
+with a bolder, powerline-style status line: git branch, a context-usage
+gauge, model, tokens, and cost, each in its own colored pill. Every color and
+background comes from the active theme's own tokens, so it matches whichever
+of the 52 themes you have selected. Preview it in the
+[live gallery](https://isashi.github.io/awesome-pi-themes/) — toggle "Look
+pack" above the terminal mock to compare it against the default footer.
+
+Installing `npm:awesome-pi-themes` for the colors alone changes nothing — the
+look pack does nothing until you explicitly turn it on:
+
+```
+/look-pack
+```
+
+Run it again to turn it off. The choice is saved (per machine, not per
+project), so it stays enabled across restarts until you toggle it off. The
+footer updates immediately. The header only draws at the very top of a
+session — like pi's own built-in banner, it can't be redrawn once the
+conversation has scrolled past it — so after enabling it, run `/new` or
+restart `pi` to see it.
+
+If you'd rather try it without installing the full package first:
+
+```bash
+pi -e ./extensions/look-pack.ts
+```
+
 ## Themes
 
 Click a name to open the live preview for that theme.

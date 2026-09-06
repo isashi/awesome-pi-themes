@@ -45,6 +45,7 @@ function enrichTheme(theme) {
       accent: resolveColor(theme, c.accent, theme.vars?.accent || "#ffd166"),
       border: resolveColor(theme, c.border, theme.vars?.gray || "#666666"),
       muted: resolveColor(theme, c.muted, theme.vars?.gray || "#888888"),
+      dim: resolveColor(theme, c.dim, theme.vars?.dim || "#666666"),
       success: resolveColor(theme, c.success, theme.vars?.success || "#70e000"),
       error: resolveColor(theme, c.error, theme.vars?.error || "#ff5c8a"),
       warning: resolveColor(theme, c.warning, theme.vars?.warning || "#ffd166"),
@@ -145,6 +146,13 @@ const html = String.raw`<!doctype html>
     .pi-footer-input { height: 32px; border-bottom: 2px solid var(--accent); background: rgba(255,255,255,.015); display: flex; align-items: center; }
     .pi-footer-path { padding-top: 6px; color: color-mix(in srgb, var(--accent) 68%, var(--fg) 32%); }
     .pi-footer-status { display: flex; justify-content: space-between; gap: 20px; padding: 2px 0 12px; color: color-mix(in srgb, var(--accent) 68%, var(--fg) 32%); }
+    .lp-header { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 4px 0 10px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+    .lp-pill { padding: 2px 9px; border-radius: 999px; white-space: nowrap; }
+    .lp-footer { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; margin-top: 22px; padding: 8px 2px; border-top: 1px solid var(--border); }
+    .lp-footer .lp-right { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+    .lp-sep { color: var(--dim); }
+    .toggle { border: 1px solid #444; background: #202020; color: #eee; padding: 9px 12px; border-radius: 10px; cursor: pointer; text-align: center; white-space: nowrap; }
+    .toggle.active { border-color: var(--accent, #ffd166); color: var(--accent, #ffd166); }
     .pi-cursor { display: inline-block; width: 9px; height: 1.15em; background: var(--fg); vertical-align: -2px; margin-left: 2px; animation: blink 1.05s steps(1) infinite; }
     .mobile-controls { display: none; }
     @keyframes blink { 50% { opacity: .12; } }
@@ -188,7 +196,7 @@ const html = String.raw`<!doctype html>
     <aside>
       <h1>awesome pi themes</h1>
       <input id="search" placeholder="Search themes..." autofocus />
-      <div class="hint"><span id="count"></span> themes. Use ↑/↓ to switch, Enter to copy the selected theme install command.</div>
+      <div class="hint"><span id="count"></span> themes. Use ↑/↓ to switch, Enter to copy the selected theme install command. Toggle "Look pack" to preview the optional header/footer extension.</div>
       <div id="list" class="theme-list"></div>
     </aside>
     <main id="preview"></main>
@@ -203,6 +211,7 @@ const html = String.raw`<!doctype html>
 const themes = __THEMES__;
 let selected = 0;
 let filtered = themes.slice();
+let lookPackPreview = false;
 const themeFromHash = () => decodeURIComponent(window.location.hash.replace(/^#/, ""));
 const indexByThemeName = (name) => themes.findIndex((t) => t.name === name);
 const list = document.querySelector('#list');
@@ -242,7 +251,7 @@ async function copyInstallCommand(t, button) {
 function setVars(t) {
   const r = t.resolved;
   for (const [k, v] of Object.entries({
-    bg:r.bg, fg:r.fg, panel:r.panel, panelAlt:r.panelAlt, accent:r.accent, border:r.border, muted:r.muted,
+    bg:r.bg, fg:r.fg, panel:r.panel, panelAlt:r.panelAlt, accent:r.accent, border:r.border, muted:r.muted, dim:r.dim,
     success:r.success, error:r.error, warning:r.warning, heading:r.mdHeading, code:r.mdCode, kw:r.syntaxKeyword, fn:r.syntaxFunction,
     str:r.syntaxString, num:r.syntaxNumber, op:r.syntaxOperator, comment:r.syntaxComment, diffAdded:r.diffAdded,
     diffRemoved:r.diffRemoved, diffContext:r.diffContext, selectedBg:r.selectedBg, userBg:r.userMessageBg, userText:r.userMessageText,
@@ -285,8 +294,14 @@ function renderPreview() {
   renderMobileControls(t);
   const vars = ['bg','fg','panel','panelAlt','accent','secondary','success','warning','error','muted','diffAdded','diffRemoved'];
   const themeList = themes.map(theme => theme.name).join(', ');
+  const lookPackHeaderLine = lookPackPreview
+    ? '<div class="lp-header"><span class="lp-pill" style="background:var(--selectedBg);color:var(--accent)"> awesome-pi-themes </span><span style="color:var(--muted)">theme: ' + t.name + '</span></div>'
+    : '';
+  const defaultFooterLine = '<div class="pi-footer"><div class="pi-footer-input"><span class="pi-cursor"></span></div><div class="pi-footer-path">/awesome-pi-themes</div><div class="pi-footer-status"><span>↑2.1k ↓334 $0.021 (sub) 0.9%/272k (auto)</span><span>your-favorite-model • medium</span></div></div>';
+  const lookPackFooterLine = '<div class="pi-footer lp-footer"><span class="lp-pill" style="background:var(--selectedBg);color:var(--accent)"> ⎇ main </span><span class="lp-right"><span class="lp-pill" style="background:var(--selectedBg);color:var(--muted)"> your-favorite-model </span><span class="lp-sep">│</span><span style="color:var(--dim)">↑2.1k ↓334 $0.021</span><span class="lp-sep">│</span><span class="lp-pill" style="background:var(--toolSuccessBg);color:var(--success)"> ▰▰▰▱▱▱▱▱▱▱ 32% </span></span></div>';
   const terminalLines = [
     '<div class="term-top"><div><span class="term-segment">/awesome-pi-themes</span> pi</div><div class="term-status">✓  system  13:18:02</div></div>',
+    lookPackHeaderLine,
     '<div class="term-line"><span class="term-magenta">pi v0.80.10</span></div>',
     '<div class="term-line"><span class="term-dim">escape interrupt · ctrl+c/ctrl+d clear/exit · / commands · ! bash · ctrl+o more</span></div>',
     '<div class="term-line"><span class="term-dim">Press ctrl+o to show full startup help and loaded resources.</span></div>',
@@ -385,10 +400,10 @@ function renderPreview() {
     '<div class="term-line"><span class="term-magenta">- [x]</span> Make precise edits</div>',
     '<div class="term-line"><span class="term-magenta">- [x]</span> Run validation</div>',
     '<div class="term-line"><span class="term-magenta">- [ ]</span> Commit changes if requested</div>',
-    '<div class="pi-footer"><div class="pi-footer-input"><span class="pi-cursor"></span></div><div class="pi-footer-path">/awesome-pi-themes</div><div class="pi-footer-status"><span>↑2.1k ↓334 $0.021 (sub) 0.9%/272k (auto)</span><span>your-favorite-model • medium</span></div></div>'
+    lookPackPreview ? lookPackFooterLine : defaultFooterLine
   ];
   preview.innerHTML = [
-    '<div class="topbar"><div><h1 class="title">' + t.name + '</h1><div class="sub">' + t.file + '</div></div><button class="copy" id="copy">Copy install command</button></div>',
+    '<div class="topbar"><div><h1 class="title">' + t.name + '</h1><div class="sub">' + t.file + '</div></div><div style="display:flex;gap:8px;flex-wrap:wrap"><button class="toggle' + (lookPackPreview ? ' active' : '') + '" id="lookPackToggle" type="button" aria-pressed="' + lookPackPreview + '">Look pack: ' + (lookPackPreview ? 'on' : 'off') + '</button><button class="copy" id="copy">Copy install command</button></div></div>',
     '<div class="grid">',
     '<section class="card wide palette-card"><div class="palette-head"><h2>Palette</h2><button class="palette-toggle" id="paletteToggle" type="button" aria-expanded="false" aria-controls="paletteDetails">Show details</button></div><button class="palette-summary" id="paletteSummary" type="button" aria-label="Show palette details">' + vars.map(k => '<span class="palette-summary-chip" style="background:' + (t.resolved[k] || t.vars[k]) + '"></span>').join('') + '</button><div class="palette palette-details" id="paletteDetails">' + vars.map(k => '<div class="color"><div class="chip" style="background:' + (t.resolved[k] || t.vars[k]) + '"></div><div class="label">' + k + '<br>' + (t.resolved[k] || t.vars[k]) + '</div></div>').join('') + '</div></section>',
     '<section class="card wide"><h2>Terminal</h2><div class="pi-terminal"><div class="pi-body"><div class="term-content">' + terminalLines.join('') + '</div></div></div></section>',
@@ -397,6 +412,8 @@ function renderPreview() {
   const copyButton = document.querySelector('#copy');
   copyButton.style.inlineSize = copyButton.offsetWidth + 'px';
   copyButton.onclick = async (event) => copyInstallCommand(t, event.currentTarget);
+  const lookPackToggle = document.querySelector('#lookPackToggle');
+  lookPackToggle.onclick = () => { lookPackPreview = !lookPackPreview; renderPreview(); };
   const paletteCard = document.querySelector('.palette-card');
   const paletteToggle = document.querySelector('#paletteToggle');
   const paletteSummary = document.querySelector('#paletteSummary');
