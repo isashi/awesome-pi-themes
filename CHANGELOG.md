@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.2.1 - 2026-09-07
+
+- Added `moonstone-koi`, a moonlit koi-pond dark theme with moonstone cyan, koi vermilion, indigo, lotus gold, reed green, and plum-mist highlights.
+- Updated the live preview build and README gallery for 53 themes.
+
 ## 1.2.0 - 2026-09-06
 
 - Added an opt-in `extensions/look-pack.ts` companion extension: a branded startup

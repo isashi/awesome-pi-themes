@@ -1,9 +1,9 @@
 {
   "name": "awesome-pi-themes",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": false,
   "type": "module",
-  "description": "A curated collection of 52 original dark themes for Pi Coding Agent with a live web preview",
+  "description": "A curated collection of 53 original dark themes for Pi Coding Agent with a live web preview",
   "homepage": "https://isashi.github.io/awesome-pi-themes/",
   "repository": {
     "type": "git",
