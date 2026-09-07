@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.2.2 - 2026-09-07
+
+- Added `mercury-lantern`, a steel-and-harbor dark theme with mercury silver, lantern amber, signal cyan, harbor blue, moss-glass, and ember-rose highlights.
+- Updated the live preview build and README gallery for 54 themes.
+
 ## 1.2.1 - 2026-09-07
 
 - Added `moonstone-koi`, a moonlit koi-pond dark theme with moonstone cyan, koi vermilion, indigo, lotus gold, reed green, and plum-mist highlights.
