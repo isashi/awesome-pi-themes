@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.2.4 - 2026-09-08
+
+- Added `bramble-current`, a dark bramble-and-tide theme with current cyan, bramble violet, harbor blue, moss-glass, amber-seed, and rose-thorn highlights.
+- Updated the live preview build and README gallery for 56 themes.
+
 ## 1.2.3 - 2026-09-08
 
 - Added `graphite-seaglass`, a graphite-and-sea-glass dark theme with sea-glass cyan, beacon gold, slate-blue, kelp-green, lilac-mist, and ember-coral highlights.
