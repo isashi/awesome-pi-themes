@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **54 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **55 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -16,7 +16,7 @@ Browse the live gallery:
 
 Featured theme:
 
-[![Violet Breakwater screenshot](docs/screenshots/violet-breakwater.jpg)](https://isashi.github.io/awesome-pi-themes/#violet-breakwater)
+[![Graphite Seaglass screenshot](docs/screenshots/graphite-seaglass.jpg)](https://isashi.github.io/awesome-pi-themes/#graphite-seaglass)
 
 ## Install
 
@@ -60,7 +60,7 @@ replaces pi's built-in startup header with a branded banner and the footer
 with a bolder, powerline-style status line: git branch, a context-usage
 gauge, model, tokens, and cost, each in its own colored pill. Every color and
 background comes from the active theme's own tokens, so it matches whichever
-of the 54 themes you have selected. Preview it in the
+of the 55 themes you have selected. Preview it in the
 [live gallery](https://isashi.github.io/awesome-pi-themes/) — toggle "Look
 pack" above the terminal mock to compare it against the default footer.
 
@@ -107,6 +107,7 @@ Click a name to open the live preview for that theme.
 | [enchanted-forest](https://isashi.github.io/awesome-pi-themes/#enchanted-forest) | [<img src="docs/screenshots/enchanted-forest.jpg" alt="Screenshot of enchanted-forest" width="360">](docs/screenshots/enchanted-forest.jpg) |
 | [glitch-carnival](https://isashi.github.io/awesome-pi-themes/#glitch-carnival) | [<img src="docs/screenshots/glitch-carnival.jpg" alt="Screenshot of glitch-carnival" width="360">](docs/screenshots/glitch-carnival.jpg) |
 | [golden-dusk](https://isashi.github.io/awesome-pi-themes/#golden-dusk) | [<img src="docs/screenshots/golden-dusk.jpg" alt="Screenshot of golden-dusk" width="360">](docs/screenshots/golden-dusk.jpg) |
+| [graphite-seaglass](https://isashi.github.io/awesome-pi-themes/#graphite-seaglass) | [<img src="docs/screenshots/graphite-seaglass.jpg" alt="Screenshot of graphite-seaglass" width="360">](docs/screenshots/graphite-seaglass.jpg) |
 | [inkfire-bay](https://isashi.github.io/awesome-pi-themes/#inkfire-bay) | [<img src="docs/screenshots/inkfire-bay.jpg" alt="Screenshot of inkfire-bay" width="360">](docs/screenshots/inkfire-bay.jpg) |
 | [iron-lotus](https://isashi.github.io/awesome-pi-themes/#iron-lotus) | [<img src="docs/screenshots/iron-lotus.jpg" alt="Screenshot of iron-lotus" width="360">](docs/screenshots/iron-lotus.jpg) |
 | [laser-swamp](https://isashi.github.io/awesome-pi-themes/#laser-swamp) | [<img src="docs/screenshots/laser-swamp.jpg" alt="Screenshot of laser-swamp" width="360">](docs/screenshots/laser-swamp.jpg) |

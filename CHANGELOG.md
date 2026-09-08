@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.2.3 - 2026-09-08
+
+- Added `graphite-seaglass`, a graphite-and-sea-glass dark theme with sea-glass cyan, beacon gold, slate-blue, kelp-green, lilac-mist, and ember-coral highlights.
+- Updated the live preview build and README gallery for 55 themes.
+
 ## 1.2.2 - 2026-09-07
 
 - Added `mercury-lantern`, a steel-and-harbor dark theme with mercury silver, lantern amber, signal cyan, harbor blue, moss-glass, and ember-rose highlights.
