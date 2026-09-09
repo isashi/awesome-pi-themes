@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **56 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **57 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -16,7 +16,7 @@ Browse the live gallery:
 
 Featured theme:
 
-[![Bramble Current screenshot](docs/screenshots/bramble-current.jpg)](https://isashi.github.io/awesome-pi-themes/#bramble-current)
+[![Midnight Basilica screenshot](docs/screenshots/midnight-basilica.jpg)](https://isashi.github.io/awesome-pi-themes/#midnight-basilica)
 
 ## Install
 
@@ -60,7 +60,7 @@ replaces pi's built-in startup header with a branded banner and the footer
 with a bolder, powerline-style status line: git branch, a context-usage
 gauge, model, tokens, and cost, each in its own colored pill. Every color and
 background comes from the active theme's own tokens, so it matches whichever
-of the 56 themes you have selected. Preview it in the
+of the 57 themes you have selected. Preview it in the
 [live gallery](https://isashi.github.io/awesome-pi-themes/) — toggle "Look
 pack" above the terminal mock to compare it against the default footer.
 
@@ -116,6 +116,7 @@ Click a name to open the live preview for that theme.
 | [lunar-alchemy](https://isashi.github.io/awesome-pi-themes/#lunar-alchemy) | [<img src="docs/screenshots/lunar-alchemy.jpg" alt="Screenshot of lunar-alchemy" width="360">](docs/screenshots/lunar-alchemy.jpg) |
 | [meomeo-mang](https://isashi.github.io/awesome-pi-themes/#meomeo-mang) | [<img src="docs/screenshots/meomeo-mang.jpg" alt="Screenshot of meomeo-mang" width="360">](docs/screenshots/meomeo-mang.jpg) |
 | [mercury-lantern](https://isashi.github.io/awesome-pi-themes/#mercury-lantern) | [<img src="docs/screenshots/mercury-lantern.jpg" alt="Screenshot of mercury-lantern" width="360">](docs/screenshots/mercury-lantern.jpg) |
+| [midnight-basilica](https://isashi.github.io/awesome-pi-themes/#midnight-basilica) | [<img src="docs/screenshots/midnight-basilica.jpg" alt="Screenshot of midnight-basilica" width="360">](docs/screenshots/midnight-basilica.jpg) |
 | [midnight-orchid](https://isashi.github.io/awesome-pi-themes/#midnight-orchid) | [<img src="docs/screenshots/midnight-orchid.jpg" alt="Screenshot of midnight-orchid" width="360">](docs/screenshots/midnight-orchid.jpg) |
 | [moonlit-terrace](https://isashi.github.io/awesome-pi-themes/#moonlit-terrace) | [<img src="docs/screenshots/moonlit-terrace.jpg" alt="Screenshot of moonlit-terrace" width="360">](docs/screenshots/moonlit-terrace.jpg) |
 | [moonstone-koi](https://isashi.github.io/awesome-pi-themes/#moonstone-koi) | [<img src="docs/screenshots/moonstone-koi.jpg" alt="Screenshot of moonstone-koi" width="360">](docs/screenshots/moonstone-koi.jpg) |

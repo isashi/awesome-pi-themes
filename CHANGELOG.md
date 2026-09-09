@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.2.5 - 2026-09-09
+
+- Added `midnight-basilica`, a cathedral-at-midnight dark theme with stained-glass cyan, nave blue, chapel violet, incense gold, moss-votive, and altar-rose highlights.
+- Updated the live preview build and README gallery for 57 themes.
+
 ## 1.2.4 - 2026-09-08
 
 - Added `bramble-current`, a dark bramble-and-tide theme with current cyan, bramble violet, harbor blue, moss-glass, amber-seed, and rose-thorn highlights.
