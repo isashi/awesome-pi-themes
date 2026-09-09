@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **57 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **58 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -16,7 +16,7 @@ Browse the live gallery:
 
 Featured theme:
 
-[![Midnight Basilica screenshot](docs/screenshots/midnight-basilica.jpg)](https://isashi.github.io/awesome-pi-themes/#midnight-basilica)
+[![Signal Cloister screenshot](docs/screenshots/signal-cloister.jpg)](https://isashi.github.io/awesome-pi-themes/#signal-cloister)
 
 ## Install
 
@@ -60,7 +60,7 @@ replaces pi's built-in startup header with a branded banner and the footer
 with a bolder, powerline-style status line: git branch, a context-usage
 gauge, model, tokens, and cost, each in its own colored pill. Every color and
 background comes from the active theme's own tokens, so it matches whichever
-of the 57 themes you have selected. Preview it in the
+of the 58 themes you have selected. Preview it in the
 [live gallery](https://isashi.github.io/awesome-pi-themes/) — toggle "Look
 pack" above the terminal mock to compare it against the default footer.
 
@@ -136,6 +136,7 @@ Click a name to open the live preview for that theme.
 | [radioactive-lullaby](https://isashi.github.io/awesome-pi-themes/#radioactive-lullaby) | [<img src="docs/screenshots/radioactive-lullaby.jpg" alt="Screenshot of radioactive-lullaby" width="360">](docs/screenshots/radioactive-lullaby.jpg) |
 | [rainbow-prism](https://isashi.github.io/awesome-pi-themes/#rainbow-prism) | [<img src="docs/screenshots/rainbow-prism.jpg" alt="Screenshot of rainbow-prism" width="360">](docs/screenshots/rainbow-prism.jpg) |
 | [sable-citadel](https://isashi.github.io/awesome-pi-themes/#sable-citadel) | [<img src="docs/screenshots/sable-citadel.jpg" alt="Screenshot of sable-citadel" width="360">](docs/screenshots/sable-citadel.jpg) |
+| [signal-cloister](https://isashi.github.io/awesome-pi-themes/#signal-cloister) | [<img src="docs/screenshots/signal-cloister.jpg" alt="Screenshot of signal-cloister" width="360">](docs/screenshots/signal-cloister.jpg) |
 | [sapphire-ember](https://isashi.github.io/awesome-pi-themes/#sapphire-ember) | [<img src="docs/screenshots/sapphire-ember.jpg" alt="Screenshot of sapphire-ember" width="360">](docs/screenshots/sapphire-ember.jpg) |
 | [starry-night](https://isashi.github.io/awesome-pi-themes/#starry-night) | [<img src="docs/screenshots/starry-night.jpg" alt="Screenshot of starry-night" width="360">](docs/screenshots/starry-night.jpg) |
 | [static-dragonfruit](https://isashi.github.io/awesome-pi-themes/#static-dragonfruit) | [<img src="docs/screenshots/static-dragonfruit.jpg" alt="Screenshot of static-dragonfruit" width="360">](docs/screenshots/static-dragonfruit.jpg) |

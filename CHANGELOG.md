@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.2.6 - 2026-09-09
+
+- Added `signal-cloister`, a monastic dark theme with cloister teal, bell blue, vesper violet, candle gold, moss-stone, and reliquary-rose highlights.
+- Updated the live preview build and README gallery for 58 themes.
+
 ## 1.2.5 - 2026-09-09
 
 - Added `midnight-basilica`, a cathedral-at-midnight dark theme with stained-glass cyan, nave blue, chapel violet, incense gold, moss-votive, and altar-rose highlights.
