@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.2.8 - 2026-09-10
+
+- Added `opal-vespers`, a chapel-at-twilight dark theme with opal cyan, vesper violet, indigo harbor, candle amber, mint-glass, and rose-compline highlights.
+- Updated the live preview build and README gallery for 60 themes.
+
 ## 1.2.7 - 2026-09-10
 
 - Added `cobalt-sanctum`, a starlit sanctuary dark theme with cobalt blue, sanctum teal, relic gold, amethyst, moss-glass, and ember-rose highlights.

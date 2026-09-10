@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **59 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **60 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -16,7 +16,7 @@ Browse the live gallery:
 
 Featured theme:
 
-[![Cobalt Sanctum screenshot](docs/screenshots/cobalt-sanctum.jpg)](https://isashi.github.io/awesome-pi-themes/#cobalt-sanctum)
+[![Opal Vespers screenshot](docs/screenshots/opal-vespers.jpg)](https://isashi.github.io/awesome-pi-themes/#opal-vespers)
 
 ## Install
 
@@ -60,7 +60,7 @@ replaces pi's built-in startup header with a branded banner and the footer
 with a bolder, powerline-style status line: git branch, a context-usage
 gauge, model, tokens, and cost, each in its own colored pill. Every color and
 background comes from the active theme's own tokens, so it matches whichever
-of the 59 themes you have selected. Preview it in the
+of the 60 themes you have selected. Preview it in the
 [live gallery](https://isashi.github.io/awesome-pi-themes/) — toggle "Look
 pack" above the terminal mock to compare it against the default footer.
 
@@ -128,6 +128,7 @@ Click a name to open the live preview for that theme.
 | [noodle-nebula](https://isashi.github.io/awesome-pi-themes/#noodle-nebula) | [<img src="docs/screenshots/noodle-nebula.jpg" alt="Screenshot of noodle-nebula" width="360">](docs/screenshots/noodle-nebula.jpg) |
 | [obsidian-harbor](https://isashi.github.io/awesome-pi-themes/#obsidian-harbor) | [<img src="docs/screenshots/obsidian-harbor.jpg" alt="Screenshot of obsidian-harbor" width="360">](docs/screenshots/obsidian-harbor.jpg) |
 | [opal-matrix](https://isashi.github.io/awesome-pi-themes/#opal-matrix) | [<img src="docs/screenshots/opal-matrix.jpg" alt="Screenshot of opal-matrix" width="360">](docs/screenshots/opal-matrix.jpg) |
+| [opal-vespers](https://isashi.github.io/awesome-pi-themes/#opal-vespers) | [<img src="docs/screenshots/opal-vespers.jpg" alt="Screenshot of opal-vespers" width="360">](docs/screenshots/opal-vespers.jpg) |
 | [paper-moon](https://isashi.github.io/awesome-pi-themes/#paper-moon) | [<img src="docs/screenshots/paper-moon.jpg" alt="Screenshot of paper-moon" width="360">](docs/screenshots/paper-moon.jpg) |
 | [petrol-peony](https://isashi.github.io/awesome-pi-themes/#petrol-peony) | [<img src="docs/screenshots/petrol-peony.jpg" alt="Screenshot of petrol-peony" width="360">](docs/screenshots/petrol-peony.jpg) |
 | [plasma-pomegranate](https://isashi.github.io/awesome-pi-themes/#plasma-pomegranate) | [<img src="docs/screenshots/plasma-pomegranate.jpg" alt="Screenshot of plasma-pomegranate" width="360">](docs/screenshots/plasma-pomegranate.jpg) |
