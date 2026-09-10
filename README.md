@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **58 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **59 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -16,7 +16,7 @@ Browse the live gallery:
 
 Featured theme:
 
-[![Signal Cloister screenshot](docs/screenshots/signal-cloister.jpg)](https://isashi.github.io/awesome-pi-themes/#signal-cloister)
+[![Cobalt Sanctum screenshot](docs/screenshots/cobalt-sanctum.jpg)](https://isashi.github.io/awesome-pi-themes/#cobalt-sanctum)
 
 ## Install
 
@@ -60,7 +60,7 @@ replaces pi's built-in startup header with a branded banner and the footer
 with a bolder, powerline-style status line: git branch, a context-usage
 gauge, model, tokens, and cost, each in its own colored pill. Every color and
 background comes from the active theme's own tokens, so it matches whichever
-of the 58 themes you have selected. Preview it in the
+of the 59 themes you have selected. Preview it in the
 [live gallery](https://isashi.github.io/awesome-pi-themes/) — toggle "Look
 pack" above the terminal mock to compare it against the default footer.
 
@@ -99,6 +99,7 @@ Click a name to open the live preview for that theme.
 | [cinder-grove](https://isashi.github.io/awesome-pi-themes/#cinder-grove) | [<img src="docs/screenshots/cinder-grove.jpg" alt="Screenshot of cinder-grove" width="360">](docs/screenshots/cinder-grove.jpg) |
 | [chrome-orchid](https://isashi.github.io/awesome-pi-themes/#chrome-orchid) | [<img src="docs/screenshots/chrome-orchid.jpg" alt="Screenshot of chrome-orchid" width="360">](docs/screenshots/chrome-orchid.jpg) |
 | [cosmic-lagoon](https://isashi.github.io/awesome-pi-themes/#cosmic-lagoon) | [<img src="docs/screenshots/cosmic-lagoon.jpg" alt="Screenshot of cosmic-lagoon" width="360">](docs/screenshots/cosmic-lagoon.jpg) |
+| [cobalt-sanctum](https://isashi.github.io/awesome-pi-themes/#cobalt-sanctum) | [<img src="docs/screenshots/cobalt-sanctum.jpg" alt="Screenshot of cobalt-sanctum" width="360">](docs/screenshots/cobalt-sanctum.jpg) |
 | [copper-comet](https://isashi.github.io/awesome-pi-themes/#copper-comet) | [<img src="docs/screenshots/copper-comet.jpg" alt="Screenshot of copper-comet" width="360">](docs/screenshots/copper-comet.jpg) |
 | [crimson-noir](https://isashi.github.io/awesome-pi-themes/#crimson-noir) | [<img src="docs/screenshots/crimson-noir.jpg" alt="Screenshot of crimson-noir" width="360">](docs/screenshots/crimson-noir.jpg) |
 | [cyber-mint](https://isashi.github.io/awesome-pi-themes/#cyber-mint) | [<img src="docs/screenshots/cyber-mint.jpg" alt="Screenshot of cyber-mint" width="360">](docs/screenshots/cyber-mint.jpg) |
