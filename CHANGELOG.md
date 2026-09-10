@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.2.9 - 2026-09-10
+
+- Added `azurite-vespers`, a chapel-blue dark theme with azurite blue, vesper lilac, choral teal, lamp gold, sea-mint, and ember-rose highlights.
+- Updated the live preview build and README gallery for 61 themes.
+
 ## 1.2.8 - 2026-09-10
 
 - Added `opal-vespers`, a chapel-at-twilight dark theme with opal cyan, vesper violet, indigo harbor, candle amber, mint-glass, and rose-compline highlights.
