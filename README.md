@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **61 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **62 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -60,7 +60,7 @@ replaces pi's built-in startup header with a branded banner and the footer
 with a bolder, powerline-style status line: git branch, a context-usage
 gauge, model, tokens, and cost, each in its own colored pill. Every color and
 background comes from the active theme's own tokens, so it matches whichever
-of the 61 themes you have selected. Preview it in the
+of the 62 themes you have selected. Preview it in the
 [live gallery](https://isashi.github.io/awesome-pi-themes/) — toggle "Look
 pack" above the terminal mock to compare it against the default footer.
 
@@ -136,6 +136,7 @@ Click a name to open the live preview for that theme.
 | [polar-lantern](https://isashi.github.io/awesome-pi-themes/#polar-lantern) | [<img src="docs/screenshots/polar-lantern.jpg" alt="Screenshot of polar-lantern" width="360">](docs/screenshots/polar-lantern.jpg) |
 | [princess-nam-rom](https://isashi.github.io/awesome-pi-themes/#princess-nam-rom) | [<img src="docs/screenshots/princess-nam-rom.jpg" alt="Screenshot of princess-nam-rom" width="360">](docs/screenshots/princess-nam-rom.jpg) |
 | [quantum-pickle](https://isashi.github.io/awesome-pi-themes/#quantum-pickle) | [<img src="docs/screenshots/quantum-pickle.jpg" alt="Screenshot of quantum-pickle" width="360">](docs/screenshots/quantum-pickle.jpg) |
+| [quartz-fjord](https://isashi.github.io/awesome-pi-themes/#quartz-fjord) | [<img src="docs/screenshots/quartz-fjord.jpg" alt="Screenshot of quartz-fjord" width="360">](docs/screenshots/quartz-fjord.jpg) |
 | [radioactive-lullaby](https://isashi.github.io/awesome-pi-themes/#radioactive-lullaby) | [<img src="docs/screenshots/radioactive-lullaby.jpg" alt="Screenshot of radioactive-lullaby" width="360">](docs/screenshots/radioactive-lullaby.jpg) |
 | [rainbow-prism](https://isashi.github.io/awesome-pi-themes/#rainbow-prism) | [<img src="docs/screenshots/rainbow-prism.jpg" alt="Screenshot of rainbow-prism" width="360">](docs/screenshots/rainbow-prism.jpg) |
 | [sable-citadel](https://isashi.github.io/awesome-pi-themes/#sable-citadel) | [<img src="docs/screenshots/sable-citadel.jpg" alt="Screenshot of sable-citadel" width="360">](docs/screenshots/sable-citadel.jpg) |
