@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **62 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **63 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -16,7 +16,7 @@ Browse the live gallery:
 
 Featured theme:
 
-[![Azurite Vespers screenshot](docs/screenshots/azurite-vespers.jpg)](https://isashi.github.io/awesome-pi-themes/#azurite-vespers)
+[![Celadon Codex screenshot](docs/screenshots/celadon-codex.jpg)](https://isashi.github.io/awesome-pi-themes/#celadon-codex)
 
 ## Install
 
@@ -60,7 +60,7 @@ replaces pi's built-in startup header with a branded banner and the footer
 with a bolder, powerline-style status line: git branch, a context-usage
 gauge, model, tokens, and cost, each in its own colored pill. Every color and
 background comes from the active theme's own tokens, so it matches whichever
-of the 62 themes you have selected. Preview it in the
+of the 63 themes you have selected. Preview it in the
 [live gallery](https://isashi.github.io/awesome-pi-themes/) — toggle "Look
 pack" above the terminal mock to compare it against the default footer.
 
@@ -97,6 +97,7 @@ Click a name to open the live preview for that theme.
 | [basalt-bloom](https://isashi.github.io/awesome-pi-themes/#basalt-bloom) | [<img src="docs/screenshots/basalt-bloom.jpg" alt="Screenshot of basalt-bloom" width="360">](docs/screenshots/basalt-bloom.jpg) |
 | [bramble-current](https://isashi.github.io/awesome-pi-themes/#bramble-current) | [<img src="docs/screenshots/bramble-current.jpg" alt="Screenshot of bramble-current" width="360">](docs/screenshots/bramble-current.jpg) |
 | [breezy-ocean](https://isashi.github.io/awesome-pi-themes/#breezy-ocean) | [<img src="docs/screenshots/breezy-ocean.jpg" alt="Screenshot of breezy-ocean" width="360">](docs/screenshots/breezy-ocean.jpg) |
+| [celadon-codex](https://isashi.github.io/awesome-pi-themes/#celadon-codex) | [<img src="docs/screenshots/celadon-codex.jpg" alt="Screenshot of celadon-codex" width="360">](docs/screenshots/celadon-codex.jpg) |
 | [cinder-grove](https://isashi.github.io/awesome-pi-themes/#cinder-grove) | [<img src="docs/screenshots/cinder-grove.jpg" alt="Screenshot of cinder-grove" width="360">](docs/screenshots/cinder-grove.jpg) |
 | [chrome-orchid](https://isashi.github.io/awesome-pi-themes/#chrome-orchid) | [<img src="docs/screenshots/chrome-orchid.jpg" alt="Screenshot of chrome-orchid" width="360">](docs/screenshots/chrome-orchid.jpg) |
 | [cosmic-lagoon](https://isashi.github.io/awesome-pi-themes/#cosmic-lagoon) | [<img src="docs/screenshots/cosmic-lagoon.jpg" alt="Screenshot of cosmic-lagoon" width="360">](docs/screenshots/cosmic-lagoon.jpg) |

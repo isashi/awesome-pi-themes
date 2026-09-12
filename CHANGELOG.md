@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.2.11 - 2026-09-12
+
+- Added `celadon-codex`, a moonlit library dark theme with celadon glow, codex blue, ink violet, vellum gold, harbor teal, and rose-seal highlights.
+- Updated the live preview build and README gallery for 63 themes.
+
 ## 1.2.10 - 2026-09-11
 
 - Added `quartz-fjord`, a glacial-fjord dark theme with quartz cyan, fjord blue, dusk violet, lantern gold, kelp mint, and coral-echo highlights.
