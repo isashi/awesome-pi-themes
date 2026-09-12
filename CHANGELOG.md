@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.2.12 - 2026-09-12
+
+- Added `verdigris-nocturne`, a patinated midnight dark theme with verdigris teal, nocturne blue, moon lilac, brass gold, fern mist, and rose-ember highlights.
+- Updated the live preview build and README gallery for 64 themes.
+
 ## 1.2.11 - 2026-09-12
 
 - Added `celadon-codex`, a moonlit library dark theme with celadon glow, codex blue, ink violet, vellum gold, harbor teal, and rose-seal highlights.

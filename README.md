@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **63 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **64 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -16,7 +16,7 @@ Browse the live gallery:
 
 Featured theme:
 
-[![Celadon Codex screenshot](docs/screenshots/celadon-codex.jpg)](https://isashi.github.io/awesome-pi-themes/#celadon-codex)
+[![Verdigris Nocturne screenshot](docs/screenshots/verdigris-nocturne.jpg)](https://isashi.github.io/awesome-pi-themes/#verdigris-nocturne)
 
 ## Install
 
@@ -60,7 +60,7 @@ replaces pi's built-in startup header with a branded banner and the footer
 with a bolder, powerline-style status line: git branch, a context-usage
 gauge, model, tokens, and cost, each in its own colored pill. Every color and
 background comes from the active theme's own tokens, so it matches whichever
-of the 63 themes you have selected. Preview it in the
+of the 64 themes you have selected. Preview it in the
 [live gallery](https://isashi.github.io/awesome-pi-themes/) — toggle "Look
 pack" above the terminal mock to compare it against the default footer.
 
@@ -149,6 +149,7 @@ Click a name to open the live preview for that theme.
 | [tuscan-sun](https://isashi.github.io/awesome-pi-themes/#tuscan-sun) | [<img src="docs/screenshots/tuscan-sun.jpg" alt="Screenshot of tuscan-sun" width="360">](docs/screenshots/tuscan-sun.jpg) |
 | [varigotti-sea](https://isashi.github.io/awesome-pi-themes/#varigotti-sea) | [<img src="docs/screenshots/varigotti-sea.jpg" alt="Screenshot of varigotti-sea" width="360">](docs/screenshots/varigotti-sea.jpg) |
 | [velvet-meteor](https://isashi.github.io/awesome-pi-themes/#velvet-meteor) | [<img src="docs/screenshots/velvet-meteor.jpg" alt="Screenshot of velvet-meteor" width="360">](docs/screenshots/velvet-meteor.jpg) |
+| [verdigris-nocturne](https://isashi.github.io/awesome-pi-themes/#verdigris-nocturne) | [<img src="docs/screenshots/verdigris-nocturne.jpg" alt="Screenshot of verdigris-nocturne" width="360">](docs/screenshots/verdigris-nocturne.jpg) |
 | [violet-breakwater](https://isashi.github.io/awesome-pi-themes/#violet-breakwater) | [<img src="docs/screenshots/violet-breakwater.jpg" alt="Screenshot of violet-breakwater" width="360">](docs/screenshots/violet-breakwater.jpg) |
 | [volcanic-bubblegum](https://isashi.github.io/awesome-pi-themes/#volcanic-bubblegum) | [<img src="docs/screenshots/volcanic-bubblegum.jpg" alt="Screenshot of volcanic-bubblegum" width="360">](docs/screenshots/volcanic-bubblegum.jpg) |
 | [willow-wraith](https://isashi.github.io/awesome-pi-themes/#willow-wraith) | [<img src="docs/screenshots/willow-wraith.jpg" alt="Screenshot of willow-wraith" width="360">](docs/screenshots/willow-wraith.jpg) |
