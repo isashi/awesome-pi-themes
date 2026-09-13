@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.2.13 - 2026-09-13
+
+- Added `auric-cascade`, a gilded-waterfall dark theme with auric gold, cascade cyan, river blue, amethyst spray, fern-glass, and ember-coral highlights.
+- Updated the live preview build and README gallery for 65 themes.
+
 ## 1.2.12 - 2026-09-12
 
 - Added `verdigris-nocturne`, a patinated midnight dark theme with verdigris teal, nocturne blue, moon lilac, brass gold, fern mist, and rose-ember highlights.
