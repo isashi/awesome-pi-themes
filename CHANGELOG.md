@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.2.14 - 2026-09-13
+
+- Added `halcyon-rivet`, a calm-industrial dark theme with halcyon teal, rivet steel blue, arc lilac, torch amber, sage-alloy, and ember-bolt highlights.
+- Updated the live preview build and README gallery for 66 themes.
+
 ## 1.2.13 - 2026-09-13
 
 - Added `auric-cascade`, a gilded-waterfall dark theme with auric gold, cascade cyan, river blue, amethyst spray, fern-glass, and ember-coral highlights.
