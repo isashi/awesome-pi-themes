@@ -60,7 +60,7 @@ replaces pi's built-in startup header with a branded banner and the footer
 with a bolder, powerline-style status line: git branch, a context-usage
 gauge, model, tokens, and cost, each in its own colored pill. Every color and
 background comes from the active theme's own tokens, so it matches whichever
-of the 66 themes you have selected. Preview it in the
+of the 67 themes you have selected. Preview it in the
 [live gallery](https://isashi.github.io/awesome-pi-themes/) — toggle "Look
 pack" above the terminal mock to compare it against the default footer.
 
