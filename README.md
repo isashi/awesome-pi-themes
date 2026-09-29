@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **67 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **68 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -60,7 +60,7 @@ replaces pi's built-in startup header with a branded banner and the footer
 with a bolder, powerline-style status line: git branch, a context-usage
 gauge, model, tokens, and cost, each in its own colored pill. Every color and
 background comes from the active theme's own tokens, so it matches whichever
-of the 67 themes you have selected. Preview it in the
+of the 68 themes you have selected. Preview it in the
 [live gallery](https://isashi.github.io/awesome-pi-themes/) — toggle "Look
 pack" above the terminal mock to compare it against the default footer.
 
@@ -110,6 +110,7 @@ Click a name to open the live preview for that theme.
 | [dragon-lulu](https://isashi.github.io/awesome-pi-themes/#dragon-lulu) | [<img src="docs/screenshots/dragon-lulu.jpg" alt="Screenshot of dragon-lulu" width="360">](docs/screenshots/dragon-lulu.jpg) |
 | [eclipse-tide](https://isashi.github.io/awesome-pi-themes/#eclipse-tide) | [<img src="docs/screenshots/eclipse-tide.jpg" alt="Screenshot of eclipse-tide" width="360">](docs/screenshots/eclipse-tide.jpg) |
 | [ember-sunset](https://isashi.github.io/awesome-pi-themes/#ember-sunset) | [<img src="docs/screenshots/ember-sunset.jpg" alt="Screenshot of ember-sunset" width="360">](docs/screenshots/ember-sunset.jpg) |
+| [emberglass-harbor](https://isashi.github.io/awesome-pi-themes/#emberglass-harbor) | [<img src="docs/screenshots/emberglass-harbor.jpg" alt="Screenshot of emberglass-harbor" width="360">](docs/screenshots/emberglass-harbor.jpg) |
 | [enchanted-forest](https://isashi.github.io/awesome-pi-themes/#enchanted-forest) | [<img src="docs/screenshots/enchanted-forest.jpg" alt="Screenshot of enchanted-forest" width="360">](docs/screenshots/enchanted-forest.jpg) |
 | [glitch-carnival](https://isashi.github.io/awesome-pi-themes/#glitch-carnival) | [<img src="docs/screenshots/glitch-carnival.jpg" alt="Screenshot of glitch-carnival" width="360">](docs/screenshots/glitch-carnival.jpg) |
 | [golden-dusk](https://isashi.github.io/awesome-pi-themes/#golden-dusk) | [<img src="docs/screenshots/golden-dusk.jpg" alt="Screenshot of golden-dusk" width="360">](docs/screenshots/golden-dusk.jpg) |

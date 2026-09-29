@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.2.16 - 2026-09-29
+
+- Added `emberglass-harbor`, a lantern-lit harbor dark theme with tidal teal, ember gold, lantern blue, reef violet, moss light, and signal coral highlights.
+- Updated the live preview build and README gallery for 68 themes.
+
 ## 1.2.15 - 2026-09-16
 
 - Added `codex`, an OpenAI Codex CLI-inspired dark theme with slate-blue panels, warm off-white text, teal accents, and green syntax keywords.
