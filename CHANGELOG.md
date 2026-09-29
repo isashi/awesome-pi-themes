@@ -2,6 +2,10 @@
 
 All notable changes to this project are documented here.
 
+## 1.2.15 - 2026-09-16
+
+- Added `codex`, an OpenAI Codex CLI-inspired dark theme with slate-blue panels, warm off-white text, teal accents, and green syntax keywords.
+- Updated the live preview build and README gallery for 67 themes.
 ## 1.2.14 - 2026-09-13
 
 - Added `halcyon-rivet`, a calm-industrial dark theme with halcyon teal, rivet steel blue, arc lilac, torch amber, sage-alloy, and ember-bolt highlights.
