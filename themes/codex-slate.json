@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/earendil-works/pi/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
-  "name": "codex",
+  "name": "codex-slate",
   "vars": {
     "bg": "#20222e",
     "panel": "#262938",

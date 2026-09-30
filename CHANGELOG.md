@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.2.17 - 2026-09-30
+
+- Added `obsidian-tidepool`, a volcanic shoreline dark theme with foam cyan, kelp mint, urchin violet, pearl blue, sunlit amber, and coral-flare highlights.
+- Updated the live preview build and README gallery for 69 themes.
+
 ## 1.2.16 - 2026-09-29
 
 - Added `emberglass-harbor`, a lantern-lit harbor dark theme with tidal teal, ember gold, lantern blue, reef violet, moss light, and signal coral highlights.
@@ -9,7 +14,7 @@ All notable changes to this project are documented here.
 
 ## 1.2.15 - 2026-09-16
 
-- Added `codex`, an OpenAI Codex CLI-inspired dark theme with slate-blue panels, warm off-white text, teal accents, and green syntax keywords.
+- Added `codex-slate`, an OpenAI Codex CLI-inspired dark theme with slate-blue panels, warm off-white text, teal accents, and green syntax keywords.
 - Updated the live preview build and README gallery for 67 themes.
 ## 1.2.14 - 2026-09-13
 

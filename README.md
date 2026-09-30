@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **68 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **69 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -60,7 +60,7 @@ replaces pi's built-in startup header with a branded banner and the footer
 with a bolder, powerline-style status line: git branch, a context-usage
 gauge, model, tokens, and cost, each in its own colored pill. Every color and
 background comes from the active theme's own tokens, so it matches whichever
-of the 68 themes you have selected. Preview it in the
+of the 69 themes you have selected. Preview it in the
 [live gallery](https://isashi.github.io/awesome-pi-themes/) — toggle "Look
 pack" above the terminal mock to compare it against the default footer.
 
@@ -99,7 +99,7 @@ Click a name to open the live preview for that theme.
 | [bramble-current](https://isashi.github.io/awesome-pi-themes/#bramble-current) | [<img src="docs/screenshots/bramble-current.jpg" alt="Screenshot of bramble-current" width="360">](docs/screenshots/bramble-current.jpg) |
 | [breezy-ocean](https://isashi.github.io/awesome-pi-themes/#breezy-ocean) | [<img src="docs/screenshots/breezy-ocean.jpg" alt="Screenshot of breezy-ocean" width="360">](docs/screenshots/breezy-ocean.jpg) |
 | [celadon-codex](https://isashi.github.io/awesome-pi-themes/#celadon-codex) | [<img src="docs/screenshots/celadon-codex.jpg" alt="Screenshot of celadon-codex" width="360">](docs/screenshots/celadon-codex.jpg) |
-| [codex](https://isashi.github.io/awesome-pi-themes/#codex) | [<img src="docs/screenshots/codex.jpg" alt="Screenshot of codex" width="360">](docs/screenshots/codex.jpg) |
+| [codex-slate](https://isashi.github.io/awesome-pi-themes/#codex-slate) | [<img src="docs/screenshots/codex-slate.jpg" alt="Screenshot of codex-slate" width="360">](docs/screenshots/codex-slate.jpg) |
 | [cinder-grove](https://isashi.github.io/awesome-pi-themes/#cinder-grove) | [<img src="docs/screenshots/cinder-grove.jpg" alt="Screenshot of cinder-grove" width="360">](docs/screenshots/cinder-grove.jpg) |
 | [chrome-orchid](https://isashi.github.io/awesome-pi-themes/#chrome-orchid) | [<img src="docs/screenshots/chrome-orchid.jpg" alt="Screenshot of chrome-orchid" width="360">](docs/screenshots/chrome-orchid.jpg) |
 | [cosmic-lagoon](https://isashi.github.io/awesome-pi-themes/#cosmic-lagoon) | [<img src="docs/screenshots/cosmic-lagoon.jpg" alt="Screenshot of cosmic-lagoon" width="360">](docs/screenshots/cosmic-lagoon.jpg) |
@@ -133,6 +133,7 @@ Click a name to open the live preview for that theme.
 | [nocturne-garden](https://isashi.github.io/awesome-pi-themes/#nocturne-garden) | [<img src="docs/screenshots/nocturne-garden.jpg" alt="Screenshot of nocturne-garden" width="360">](docs/screenshots/nocturne-garden.jpg) |
 | [noodle-nebula](https://isashi.github.io/awesome-pi-themes/#noodle-nebula) | [<img src="docs/screenshots/noodle-nebula.jpg" alt="Screenshot of noodle-nebula" width="360">](docs/screenshots/noodle-nebula.jpg) |
 | [obsidian-harbor](https://isashi.github.io/awesome-pi-themes/#obsidian-harbor) | [<img src="docs/screenshots/obsidian-harbor.jpg" alt="Screenshot of obsidian-harbor" width="360">](docs/screenshots/obsidian-harbor.jpg) |
+| [obsidian-tidepool](https://isashi.github.io/awesome-pi-themes/#obsidian-tidepool) | [<img src="docs/screenshots/obsidian-tidepool.jpg" alt="Screenshot of obsidian-tidepool" width="360">](docs/screenshots/obsidian-tidepool.jpg) |
 | [opal-matrix](https://isashi.github.io/awesome-pi-themes/#opal-matrix) | [<img src="docs/screenshots/opal-matrix.jpg" alt="Screenshot of opal-matrix" width="360">](docs/screenshots/opal-matrix.jpg) |
 | [opal-vespers](https://isashi.github.io/awesome-pi-themes/#opal-vespers) | [<img src="docs/screenshots/opal-vespers.jpg" alt="Screenshot of opal-vespers" width="360">](docs/screenshots/opal-vespers.jpg) |
 | [paper-moon](https://isashi.github.io/awesome-pi-themes/#paper-moon) | [<img src="docs/screenshots/paper-moon.jpg" alt="Screenshot of paper-moon" width="360">](docs/screenshots/paper-moon.jpg) |
