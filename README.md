@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/awesome-pi-themes?style=flat-square)](https://www.npmjs.com/package/awesome-pi-themes)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-A curated collection of **69 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
+A curated collection of **70 original dark themes** for [pi](https://pi.dev), with a standalone browser preview and ready-to-copy JSON theme files.
 
 The goal of this project is to make pi feel more personal and readable during real coding sessions. Feedback is very welcome, especially on contrast, syntax colors, warnings/errors, diffs, and long-session readability.
 
@@ -60,7 +60,7 @@ replaces pi's built-in startup header with a branded banner and the footer
 with a bolder, powerline-style status line: git branch, a context-usage
 gauge, model, tokens, and cost, each in its own colored pill. Every color and
 background comes from the active theme's own tokens, so it matches whichever
-of the 69 themes you have selected. Preview it in the
+of the 70 themes you have selected. Preview it in the
 [live gallery](https://isashi.github.io/awesome-pi-themes/) — toggle "Look
 pack" above the terminal mock to compare it against the default footer.
 
@@ -91,6 +91,7 @@ Click a name to open the live preview for that theme.
 | Theme | Screenshot |
 | --- | --- |
 | [alien-candy](https://isashi.github.io/awesome-pi-themes/#alien-candy) | [<img src="docs/screenshots/alien-candy.jpg" alt="Screenshot of alien-candy" width="360">](docs/screenshots/alien-candy.jpg) |
+| [amethyst-drift](https://isashi.github.io/awesome-pi-themes/#amethyst-drift) | [<img src="docs/screenshots/amethyst-drift.jpg" alt="Screenshot of amethyst-drift" width="360">](docs/screenshots/amethyst-drift.jpg) |
 | [arctic-aurora](https://isashi.github.io/awesome-pi-themes/#arctic-aurora) | [<img src="docs/screenshots/arctic-aurora.jpg" alt="Screenshot of arctic-aurora" width="360">](docs/screenshots/arctic-aurora.jpg) |
 | [auric-cascade](https://isashi.github.io/awesome-pi-themes/#auric-cascade) | [<img src="docs/screenshots/auric-cascade.jpg" alt="Screenshot of auric-cascade" width="360">](docs/screenshots/auric-cascade.jpg) |
 | [aurora-circuit](https://isashi.github.io/awesome-pi-themes/#aurora-circuit) | [<img src="docs/screenshots/aurora-circuit.jpg" alt="Screenshot of aurora-circuit" width="360">](docs/screenshots/aurora-circuit.jpg) |

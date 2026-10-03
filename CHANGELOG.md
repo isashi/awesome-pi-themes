@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 1.2.18 - 2026-10-03
+
+- Added `amethyst-drift`, a violet night-drift dark theme with amethyst glow, glacier cyan, orchid rose, star gold, lichen mint, and comet blue highlights.
+- Updated the live preview build and README gallery for 70 themes.
+
 ## 1.2.17 - 2026-09-30
 
 - Added `obsidian-tidepool`, a volcanic shoreline dark theme with foam cyan, kelp mint, urchin violet, pearl blue, sunlit amber, and coral-flare highlights.
