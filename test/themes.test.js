@@ -62,6 +62,17 @@ const requiredColorTokens = [
   "bashMode",
 ];
 
+// Optional in pi's schema: pi inherits a fallback color when they are omitted.
+const optionalColorTokens = [
+  "scrollbarTrack",
+  "scrollbarThumb",
+  "searchMatchBg",
+  "searchMatchText",
+];
+
+// Every token pi accepts. Colors outside this set make the whole theme invalid.
+const allowedColorTokens = new Set([...requiredColorTokens, ...optionalColorTokens]);
+
 const requiredExportTokens = ["pageBg", "cardBg", "infoBg"];
 const hexColor = /^#[0-9a-f]{6}$/i;
 const slug = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -151,7 +162,14 @@ describe("pi themes", () => {
 
       for (const token of requiredColorTokens) {
         assert.ok(Object.hasOwn(theme.colors, token), `${theme.name}: missing colors.${token}`);
-        assertColorReference(theme, token, theme.colors[token]);
+      }
+
+      for (const [token, value] of Object.entries(theme.colors)) {
+        assert.ok(
+          allowedColorTokens.has(token),
+          `${theme.name}: unknown color token colors.${token}`,
+        );
+        assertColorReference(theme, token, value);
       }
 
       for (const token of requiredExportTokens) {
