@@ -2,6 +2,10 @@
 
 All notable changes to this project are documented here.
 
+## Unreleased
+
+- Fixed `codex-slate` using color tokens that current Pi releases no longer support (`link`, `pythonMode`, and the `statusLine*` group). Pi rejected the file at startup, reported a theme conflict, and skipped loading the theme.
+
 ## 1.2.19 - 2026-10-03
 
 - Added `saffron-cavern`, a warm mineral-cavern dark theme with saffron glow, crystal cyan, lichen green, ore blue, violet geode, and ruby-glow highlights.

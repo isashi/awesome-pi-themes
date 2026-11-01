@@ -62,6 +62,9 @@ const requiredColorTokens = [
   "bashMode",
 ];
 
+const optionalColorTokens = ["scrollbarTrack", "scrollbarThumb", "searchMatchBg", "searchMatchText"];
+const supportedColorTokens = new Set([...requiredColorTokens, ...optionalColorTokens]);
+
 const requiredExportTokens = ["pageBg", "cardBg", "infoBg"];
 const hexColor = /^#[0-9a-f]{6}$/i;
 const slug = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -156,6 +159,17 @@ describe("pi themes", () => {
 
       for (const token of requiredExportTokens) {
         assert.match(theme.export[token], hexColor, `${theme.name}: export.${token} must be a 6-digit hex color`);
+      }
+    }
+  });
+
+  it("uses only color tokens supported by the pi theme schema", () => {
+    for (const { theme } of themes) {
+      for (const token of Object.keys(theme.colors)) {
+        assert.ok(
+          supportedColorTokens.has(token),
+          `${theme.name}: colors.${token} is not a color token supported by pi`,
+        );
       }
     }
   });
