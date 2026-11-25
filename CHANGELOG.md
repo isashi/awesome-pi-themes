@@ -2,6 +2,12 @@
 
 All notable changes to this project are documented here.
 
+## Unreleased
+
+- Fixed `codex-slate` failing to load in Pi with `schema is false` errors by removing 16 undocumented color tokens (`link`, 15 `statusLine*` tokens, and `pythonMode`) that the current Pi theme schema rejects. Palette and rendered colors are unchanged; the `panel` var is kept for the palette preview.
+- Added a test that rejects undocumented theme keys and color tokens so an unsupported token fails CI instead of breaking the theme at startup.
+- Rebuilt `docs/index.html` so the static preview no longer embeds the retired `codex-slate` tokens.
+
 ## 1.2.19 - 2026-10-03
 
 - Added `saffron-cavern`, a warm mineral-cavern dark theme with saffron glow, crystal cyan, lichen green, ore blue, violet geode, and ruby-glow highlights.

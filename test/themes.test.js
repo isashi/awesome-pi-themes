@@ -63,6 +63,16 @@ const requiredColorTokens = [
 ];
 
 const requiredExportTokens = ["pageBg", "cardBg", "infoBg"];
+
+// Optional Pi color tokens that inherit another token when omitted.
+const optionalColorTokens = ["searchMatchBg", "searchMatchText", "scrollbarThumb", "scrollbarTrack"];
+
+// Pi rejects theme objects containing undocumented keys, so anything outside these
+// lists makes the whole theme fail to load instead of just the extra token.
+const allowedThemeKeys = new Set(["$schema", "name", "appearance", "vars", "colors", "export"]);
+const allowedColorTokens = new Set([...requiredColorTokens, ...optionalColorTokens]);
+const allowedExportTokens = new Set(requiredExportTokens);
+
 const hexColor = /^#[0-9a-f]{6}$/i;
 const slug = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
@@ -156,6 +166,22 @@ describe("pi themes", () => {
 
       for (const token of requiredExportTokens) {
         assert.match(theme.export[token], hexColor, `${theme.name}: export.${token} must be a 6-digit hex color`);
+      }
+    }
+  });
+
+  it("uses only documented theme keys and color tokens", () => {
+    for (const { theme } of themes) {
+      for (const key of Object.keys(theme)) {
+        assert.ok(allowedThemeKeys.has(key), `${theme.name}: undocumented top-level key ${key}`);
+      }
+
+      for (const token of Object.keys(theme.colors)) {
+        assert.ok(allowedColorTokens.has(token), `${theme.name}: undocumented color token ${token}`);
+      }
+
+      for (const token of Object.keys(theme.export)) {
+        assert.ok(allowedExportTokens.has(token), `${theme.name}: undocumented export token ${token}`);
       }
     }
   });
